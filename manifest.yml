@@ -1,0 +1,19 @@
+---
+applications:
+- name: engineerbetter-web
+  disk: 128M
+  memory: 64M
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack
+
+language: staticfile
+
+exclude_files:
+  - .git/
+  - .gitignore
+  - .gitmodules
+  - .rspec
+  - cf_spec/
+  - log/
+  - test/
+  - buildpack-packager/
+  - staticfile_buildpack-*v*.zip
