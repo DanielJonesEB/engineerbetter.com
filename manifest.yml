@@ -3,6 +3,7 @@ applications:
 - name: engineerbetter-com
   disk: 128M
   memory: 64M
+  instances: 2
   path: _site/
   buildpack: https://github.com/cloudfoundry/staticfile-buildpack
 
