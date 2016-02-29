@@ -41,7 +41,7 @@
 		-o-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		color: #3fb1a3;
+		color: #1d71b8;
 		text-decoration: none;
 		border-bottom: dotted 1px;
 	}
@@ -811,25 +811,14 @@
 		background-size: 25em, 25em, auto, cover;
 		color: white;
 		cursor: default;
-		padding: 6em 0;
+		padding: 4em 0;
 		text-align: center;
 	}
 
-		#banner .inner {
-			-moz-animation: reveal-banner 1s 0.25s ease-in-out;
-			-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
-			-o-animation: reveal-banner 1s 0.25s ease-in-out;
-			-ms-animation: reveal-banner 1s 0.25s ease-in-out;
-			animation: reveal-banner 1s 0.25s ease-in-out;
-			-moz-animation-fill-mode: forwards;
-			-webkit-animation-fill-mode: forwards;
-			-o-animation-fill-mode: forwards;
-			-ms-animation-fill-mode: forwards;
-			animation-fill-mode: forwards;
+		#banner .inner, #cta .inner {
 			background: rgba(52, 27, 43, 0.5);
 			color: white;
 			display: inline-block;
-			opacity: 0;
 			padding: 3em;
 			text-align: center;
 		}
@@ -1102,4 +1091,13 @@
 		#sidePanel .indent-5 {
 			display: inline-block;
 			width: 5em;
+		}
+
+
+		.clip {
+			-moz-clip-path: polygon(0.7em 0, 100% 0%, 100% 100%, 0 100%, 0 1em);
+			-webkit-clip-path: polygon(0.7em 0, 100% 0%, 100% 100%, 0 100%, 0 1em);
+			-o-clip-path: polygon(0.7em 0, 100% 0%, 100% 100%, 0 100%, 0 1em);
+			-ms-clip-path: polygon(0.7em 0, 100% 0%, 100% 100%, 0 100%, 0 1em);
+			clip-path: polygon(0.7em 0, 100% 0%, 100% 100%, 0 100%, 0 1em);
 		}
