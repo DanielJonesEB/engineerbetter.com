@@ -1,6 +1,6 @@
 ---
 applications:
-- name: engineerbetter-web
+- name: engineerbetter-com
   disk: 128M
   memory: 64M
   path: _site/
