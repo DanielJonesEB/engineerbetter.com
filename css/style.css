@@ -1092,6 +1092,14 @@
 			width: 5em;
 		}
 
+		.circular {
+			-moz-clip-path: circle(50% at 50% 50%);
+			-webkit-clip-path: circle(50% at 50% 50%);
+			-o-clip-path: circle(50% at 50% 50%);
+			-ms-clip-path: circle(50% at 50% 50%);
+			clip-path: circle(50% at 50% 50%);
+		}
+
 
 		.clip {
 			-moz-clip-path: polygon(0.7em 0, 100% 0%, 100% 100%, 0 100%, 0 1em);
