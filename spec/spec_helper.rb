@@ -8,5 +8,11 @@ Capybara.configure do |config|
 
   config.default_driver = :webkit
   config.run_server = false
-  config.app_host   = "http://www-#{environment}.engineerbetter.com"
+
+  if environment == "production" do
+    config.app_host   = "http://www.engineerbetter.com"
+  else
+    config.app_host   = "http://www-#{environment}.engineerbetter.com"
+  end
+
 end
