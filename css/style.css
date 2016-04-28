@@ -50,7 +50,7 @@
 			border-bottom-color: transparent;
 		}
 
-	strong, b {
+	strong, b, em {
 		font-weight: 400;
 	}
 
@@ -383,6 +383,11 @@
 
 		ol.default li {
 			padding-left: 0.25em;
+		}
+
+		ul {
+			list-style: disc;
+			padding-left: 1em;
 		}
 
 	ul.default {
