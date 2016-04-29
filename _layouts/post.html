@@ -3,6 +3,8 @@
 
   {% include head.html %}
 
+
+
   <body class="no-sidebar">
     {% include topnav.html %}
 
@@ -10,16 +12,19 @@
 
       <article id="main">
       <header class="special container">
+        {% assign author = site.data.authors[page.author] %}
         <h2 class="post-title">{{ page.title }}</h2>
-        <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-        <p>
-          <a href="https://twitter.com/{{site.data.authors.[page.author].twitter}}">
-            <i class="fa fa-twitter" aria-hidden="true"></i>
+        <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ author.name }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
+        </br>
+          <a href="https://twitter.com/{{author.twitter}}">
+            <i class="fa fa-twitter"></i>
           </a>
-          <a href="https://github.com/{{site.data.authors.[page.author].github}}">
-            <i class="fa fa-github" aria-hidden="true"></i>
+          |
+          <a href="https://github.com/{{author.github}}">
+            <i class="fa fa-github"></i>
           </a>
         </p>
+
       </header>
 
         <section class="style4 wrapper container">

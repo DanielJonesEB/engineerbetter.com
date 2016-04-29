@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Overflowing buildpack_cache
-author: Daniel Jones
+author: deejay
 categories: update
 comments: true
 ---
+<img src="/images/overflowing-rubbish.jpg" class="image fit">
 
 Between versions 206 and 211 of Cloud Foundry a bug causes `buildpack_cache` files to be orphaned, increasing persistent disk usage unless manual remedial action is taken.
 

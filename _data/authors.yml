@@ -1,7 +1,9 @@
-- name: Dan Young
+dan:
+  name: Dan Young
   github: danyoung
   twitter: dan0young
 
-- name: Daniel Jones
+deejay:
+  name: Daniel Jones
   github: DanielJonesEB
   twitter: DanielJonesEB

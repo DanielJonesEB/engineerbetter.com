@@ -1,16 +1,11 @@
 ---
 layout: post
 title: A Flood of Droplets
-author: Daniel Jones
+author: deejay
 categories: update
 comments: true
 ---
-
-{% for author in site.data.authors %}
-    <a href="https://github.com/{{ author.github }}">
-      <i class="ico-github"></i>
-    </a>
-{% endfor %}
+<img src="/images/droplets.jpg" class="image fit">
 
 If you play the dangerous game of scaling Cloud Foundry DEAs up instead of out, make sure you have plenty of headroom in the CPU department to start with. If you don't then there's a good chance you'll see a heap of `no available stagers` errors upon `cf push` and `insufficient resources to start` errors upon `cf start`. This will last for an hour before magically fixing itself.
 

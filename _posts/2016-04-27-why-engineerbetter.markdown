@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "The Why, How and What of EngineerBetter"
-date:   27/04/2016
-author: Dan Young
+title:  The Why, How and What of EngineerBetter
+author: dan
 permalink: /why-engineerbetter.html
 ---
 
 *Why* does EngineerBetter exist?
 
 We started this company to make things better for people who build software for a living. This includes both our customers and our employees.
+
+<!--more-->
 
 If you are our customer, we want to help you deliver your core business value more quickly.  When we say business value, we are talking about whatever it is your organisation does that makes a difference to your customers.
 
