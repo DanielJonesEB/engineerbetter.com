@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+
+
+  <body class="no-sidebar">
+    {% include topnav.html %}
+
+    <div class="page-content">
+
+      <article id="main">
+      <header class="special container">
+        {% assign author = site.data.authors[page.author] %}
+        <h2 class="post-title">{{ page.title }}</h2>
+        <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ author.name }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
+        </br>
+          <a href="https://twitter.com/{{author.twitter}}">
+            <i class="fa fa-twitter"></i>
+          </a>
+          |
+          <a href="https://github.com/{{author.github}}">
+            <i class="fa fa-github"></i>
+          </a>
+        </p>
+
+      </header>
+
+        <section class="style4 wrapper container">
+        {{ content }}
+        </section>
+
+        <footer>
+            {% if page.previous %}
+            <a href="{{ page.previous.url }}" class="post-prev">&larr; Previous post</a> {% endif %}
+            {% if page.next %}
+            <a href="{{ page.next.url }}" class="post-next">Next post &rarr;</a> {% endif %}
+        </footer>
+
+      </article>
+
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

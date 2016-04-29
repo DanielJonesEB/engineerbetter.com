@@ -257,6 +257,7 @@
 
 		.image.fit {
 			display: block;
+			width: 450px;
 		}
 
 			.image.fit img {
