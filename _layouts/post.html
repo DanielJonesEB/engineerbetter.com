@@ -12,6 +12,14 @@
       <header class="special container">
         <h2 class="post-title">{{ page.title }}</h2>
         <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+        <p>
+          <a href="https://twitter.com/{{site.data.authors.[page.author].twitter}}">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+          <a href="https://github.com/{{site.data.authors.[page.author].github}}">
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </a>
+        </p>
       </header>
 
         <section class="style4 wrapper container">
@@ -24,7 +32,7 @@
             {% if page.next %}
             <a href="{{ page.next.url }}" class="post-next">Next post &rarr;</a> {% endif %}
         </footer>
-        
+
       </article>
 
     </div>
