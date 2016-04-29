@@ -649,6 +649,10 @@
 			top: 1.5em;
 		}
 
+		#header nav.short-nav {
+			top: .55em;
+		}
+
 			#header nav ul li {
 				display: inline-block;
 				margin-left: 1.5em;
