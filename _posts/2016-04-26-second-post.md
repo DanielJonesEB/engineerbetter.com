@@ -41,3 +41,10 @@ And some more code
 <a href="#">Hello world</a>
 
 {% endhighlight %}
+
+Let's try blockquotes
+
+As Kanye West said:
+
+> We're living the future so
+> the present is our past.
