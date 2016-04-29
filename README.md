@@ -1,6 +1,6 @@
 # EngineerBetter Web Site
 
-Delivery pipeline is (here)[https://ci.engineerbetter.com/pipelines/engineerbetter-com] 
+Delivery pipeline is [here](https://ci.engineerbetter.com/pipelines/engineerbetter-com)
 
 Usage
 --
