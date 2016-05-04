@@ -14,7 +14,9 @@ layout: blog
       <div>
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
             {{ post.excerpt }}
-      <a href="{{ post.url }}">Read More</a></li>
+      <p>
+        <a href="{{ post.url }}">Read More</a>
+      </p>
       </div>
       {% endfor %}
 
@@ -29,6 +31,9 @@ layout: blog
                      <h3><a href="{{post.url}}">{{post.title}}</a></h3>
                      <hr />
                      <p>{{post.excerpt}}</p>
+                     <p>
+                       <a href="{{ post.url }}">Read More</a>
+                     </p>
                  </div>
 
                  {% if currentmod == '1' or forloop.last %}
