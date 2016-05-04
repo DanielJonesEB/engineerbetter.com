@@ -258,6 +258,7 @@
 		.image.fit {
 			display: block;
 			width: 100%;
+			max-width: 700px
 		}
 
 			.image.fit img {

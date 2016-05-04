@@ -9,9 +9,32 @@ layout: blog
         <p>Thoughts, ideas and experiences from our team</p>
     </header>
     <section class="wrapper style4 container clip">
-          {% for post in site.posts %}
-          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                {{ post.excerpt }}
-          {% endfor %}
+
+      {% for post in site.posts limit:1%}
+      <div>
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            {{ post.excerpt }}
+      <a href="{{ post.url }}">Read More</a></li>
+      </div>
+      {% endfor %}
+
+        {% for post in site.posts offset:1 limit:9 %}
+             {% capture currentmod %}{{ forloop.index0 | mod:2 }}{% endcapture %}
+
+             {% if currentmod == '0' or forloop.first %}
+             <div class="row">
+                 {% endif %}
+
+                 <div class="6u 12u(narrower)">
+                     <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+                     <hr />
+                     <p>{{post.excerpt}}</p>
+                 </div>
+
+                 {% if currentmod == '1' or forloop.last %}
+             </div>
+             {% endif %}
+        {% endfor %}
+
     </section>
 </article>
