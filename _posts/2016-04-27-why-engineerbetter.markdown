@@ -2,13 +2,15 @@
 layout: post
 title:  The Why, How and What of EngineerBetter
 author: dan
-permalink: /why-engineerbetter.html
+permalink: /why-eb.html
 ---
-<img src="/images/skyharbor.jpg" class="image fit">
+<img src="/images/shibuya.jpg" class="image fit">
 
 *Why* does EngineerBetter exist?
 
 We started this company to make things better for people who build software for a living. This includes both our customers and our employees.
+
+EngineerBetter was founded in the belief that today's status quo is not good enough. We think there should be less friction in the way we work. We should be more effective and we should learn quicker.
 
 <!--more-->
 
@@ -16,7 +18,7 @@ If you are our customer, we want to help you deliver your core business value mo
 
 *How* does EngineerBetter work?
 
-We aim to make things better by enabling our customers to leverage PaaS, together with a highly effective approach to software development. Through this, we believe we can improve the rate at which these organisations can learn about their customers and their business environment.
+We aim to make things better by enabling our customers to leverage PaaS, together with a highly effective approach to software development. Through this, we believe we can improve the rate at which our customers can move from ideas, to code, to feedback.
 
 We’ve chosen Cloud Foundry as the vehicle to achieve our goals, because we think it’s the best Enterprise application platform on the planet right now.
 
@@ -24,6 +26,10 @@ We’ve chosen Cloud Foundry as the vehicle to achieve our goals, because we thi
 
 We help make Cloud Foundry operable and successful within our customer's organisation. This includes everything from integrating and extending the platform itself, through to weaving it into the software delivery pipeline and workflow.
 
-We teach teams how to best 'fish for themselves’, demonstrating the importance of shared values and enabling teams with the complimentary elements of XP, Lean and Kanban.
+We teach software teams how to best 'fish for themselves’, demonstrating the importance of shared values and enabling teams with the complimentary elements of XP, Lean and Kanban.
 
-Beyond technology provide an advisory service for business leaders, to help shape the organisational context around the platform and the teams that use it, so that they can achieve the desired business outcomes.
+Beyond technology, we work with executive leadership, to help them become cognisant of the organisational conditions required for success in their cloud-native initiatives. We help them shape the business context around their platform and the teams that use it, so that they can achieve sustainable and meaningful results.
+
+*Where* can I find out more?
+
+If it sounds like EngineerBetter shares your values, please [get in touch](mailto:contact@engineerbetter.com). We'd love to hear from you.
