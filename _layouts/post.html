@@ -14,6 +14,7 @@
       <header class="special container">
         {% assign author = site.data.authors[page.author] %}
         <h2 class="post-title">{{ page.title }}</h2>
+        <img src="{{author.avatar}}" alt="" class="circular small" />
         <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ author.name }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
         </br>
           <a href="https://twitter.com/{{author.twitter}}">
