@@ -6,7 +6,7 @@ permalink: /why-eb.html
 ---
 <img src="/images/shibuya.jpg" class="image fit">
 
-*Why* does EngineerBetter exist?
+**Why** does EngineerBetter exist?
 
 We started this company to make things better for people who build software for a living. This includes both our customers and our employees.
 
@@ -14,9 +14,9 @@ EngineerBetter was founded in the belief that today's status quo is not good eno
 
 <!--more-->
 
-If you are our customer, we want to help you deliver your core business value more quickly.  When we say business value, we are talking about whatever it is your organisation does that makes a difference to your customers.
+If you are our customer, we want to help you deliver your core business value more quickly.  When we say business value, we are talking about whatever it is your organisation does that *makes a difference to your customers*.
 
-*How* does EngineerBetter work?
+**How** does EngineerBetter work?
 
 We aim to make things better by enabling our customers to leverage PaaS, together with a highly effective approach to software development. Through this, we believe we can improve the rate at which our customers can move from ideas, to code, to feedback.
 
@@ -30,6 +30,6 @@ We teach software teams how to best 'fish for themselves’, demonstrating the i
 
 Beyond technology, we work with executive leadership, to help them become cognisant of the organisational conditions required for success in their cloud-native initiatives. We help them shape the business context around their platform and the teams that use it, so that they can achieve sustainable and meaningful results.
 
-*Where* can I find out more?
+**Where** can I find out more?
 
 If it sounds like EngineerBetter shares your values, please [get in touch](mailto:contact@engineerbetter.com). We'd love to hear from you.
