@@ -124,7 +124,6 @@ Once the director is deployed, you can target it using the bosh cli and login us
 {% highlight bash %}
 
 bosh target <your elastic ip address>
-bosh update cloud-config aws-cloud.yml
 
 {% endhighlight %}
 
