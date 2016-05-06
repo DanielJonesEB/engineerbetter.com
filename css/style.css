@@ -35,6 +35,10 @@
 		line-height: 1.75em;
 	}
 
+	figure {
+		margin-bottom: 1em;
+	}
+
 	a {
 		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
