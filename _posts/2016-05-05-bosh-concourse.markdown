@@ -26,7 +26,7 @@ In Part 1 we will do the following:
 
 - Prepare the AWS environment
 - Deploy a new BOSH Director using bosh-init
-- Login to the Director and set up cloud-config.
+- Log in to the Director and set up cloud-config.
 
 In Part 2 we will:
 
@@ -79,7 +79,7 @@ Terraform will execute the plan and save the state of your environment locally. 
 
 Which produces this:
 
-<img src="/images/terraform-graph.png" class="image fit">
+<img src="/images/blog/terraform-graph.png" class="image fit">
 
 You should check the terraform output values and make a note of the elastic IP we'll use for the BOSH director using `terraform output`
 
@@ -115,11 +115,11 @@ While you're drinking your tea, why not read [more about BOSH](https://bosh.io/d
 
 Back in your terminal, you should eventually see something like this:
 
-<img src="/images/bosh-init-deploy.png" class="image fit">
+<img src="/images/blog/bosh-init-deploy.png" class="image fit">
 
 ### Logging in and setting up cloud-config
 
-Once the director is deployed, you can target it using the bosh cli and login using the admin account and your chosen password.
+Once the director is deployed, you can target it using the bosh cli and log in using the admin account and your chosen password.
 
 {% highlight bash %}
 
@@ -135,6 +135,16 @@ bosh update cloud-config aws-cloud.yml
 
 {% endhighlight %}
 
+You can use `bosh cloud-config` to output your current configuration at any time.
+
 Congratulations, you have a working BOSH Director!
 
-In Part 2 we will look at using this to deploy Concourse.
+Once you've finished playing and want to tear down your whole environment, first tell bosh-init and to delete the deployment:
+
+`bosh-init delete bosh-director.yml`
+
+Then use terraform to destroy your configuration in AWS:
+
+`terraform destroy`
+
+In the next part of this series, we will look at using this to deploy Concourse.
