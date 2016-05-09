@@ -30,6 +30,11 @@
 
         <section class="style4 wrapper container">
         {{ content }}
+
+        {% if page.comments %}
+        {% include disqus.html %}
+        {% endif %}
+
         </section>
 
         <footer>
