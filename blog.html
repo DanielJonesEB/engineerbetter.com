@@ -11,12 +11,14 @@ layout: blog
     <section class="wrapper style4 container clip">
 
       {% for post in site.posts limit:1%}
-      <div>
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-            {{ post.excerpt }}
-      <p>
-        <a href="{{ post.url }}">Read More</a>
-      </p>
+      <div class="row">
+        <div>
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+              {{ post.excerpt }}
+        <p>
+          <a href="{{ post.url }}">Read More</a>
+        </p>
+        </div>
       </div>
       {% endfor %}
 
