@@ -44,7 +44,7 @@ In Part 3:
 
 First, clone the GitHub repo accompanying this tutorial:
 
-`git clone https://github.com/EngineerBetter/bosh-concourse-setup`
+`git clone [https://github.com/EngineerBetter/bosh-concourse-setup](https://github.com/EngineerBetter/bosh-concourse-setup)`
 
 We're going to use Terraform to express our desired AWS environment as code, so we can put this in source control along with everything else. The terraform configuration we’re using will create the network and security resources for BOSH, but also an elastic load balancer for Concourse with an SSL listener. However, this does assume that you already have the following:
 
