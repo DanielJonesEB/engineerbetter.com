@@ -3,6 +3,7 @@ layout: post
 title:  Up and running with BOSH and Concourse - Part 1.
 author: dan
 permalink: /bosh-concourse.html
+comments: true
 ---
 <img src="/images/blog/concourse-example.png" class="image fit">
 

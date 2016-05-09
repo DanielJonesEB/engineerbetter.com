@@ -3,6 +3,7 @@ layout: post
 title:  The Why, How and What of EngineerBetter
 author: dan
 permalink: /why-eb.html
+comments: true
 ---
 <img src="/images/blog/shibuya.jpg" class="image fit">
 
