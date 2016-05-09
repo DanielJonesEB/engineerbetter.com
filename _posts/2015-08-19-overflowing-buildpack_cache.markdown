@@ -5,7 +5,7 @@ author: deejay
 categories: update
 comments: true
 ---
-<img src="/images/overflowing-rubbish.jpg" class="image fit">
+<img src="/images/blog/overflowing-rubbish.jpg" class="image fit">
 
 Between versions 206 and 211 of Cloud Foundry a bug causes `buildpack_cache` files to be orphaned, increasing persistent disk usage unless manual remedial action is taken.
 

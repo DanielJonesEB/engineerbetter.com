@@ -4,7 +4,7 @@ title:  The Why, How and What of EngineerBetter
 author: dan
 permalink: /why-eb.html
 ---
-<img src="/images/shibuya.jpg" class="image fit">
+<img src="/images/blog/shibuya.jpg" class="image fit">
 
 **Why** does EngineerBetter exist?
 

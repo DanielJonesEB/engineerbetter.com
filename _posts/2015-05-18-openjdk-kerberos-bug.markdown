@@ -5,7 +5,7 @@ categories: update
 author: deejay
 comments: true
 ---
-<img src="/images/cerberus.jpg" class="image fit">
+<img src="/images/blog/cerberus.jpg" class="image fit">
 
 I discovered an [OpenJDK 1.8.0_u40 bug](https://bugs.openjdk.java.net/browse/JDK-8078439) whereby only the first OID in a Kerberos ticket will be considered for supportability; if your server can only authenticate using mechanisms further down the OID list in the ticket then you're bang out of luck.
 
