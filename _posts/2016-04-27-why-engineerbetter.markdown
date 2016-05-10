@@ -11,11 +11,11 @@ comments: true
 
 We started this company to make things better for people who build software for a living. This includes both our customers and our employees.
 
-EngineerBetter was founded in the belief that today's status quo is not good enough. We think there should be less friction in the way we work. We should be more effective and we should learn quicker.
+EngineerBetter was founded in the belief that today's status quo is not good enough for humans. We think there should be less friction in the way we work. We should be more effective and we should learn quicker.
 
 <!--more-->
 
-If you are our customer, we want to help you deliver your core business value more quickly.  When we say business value, we are talking about whatever it is your organisation does that *makes a difference to your customers*.
+If you are our customer, we ultimately want to help you deliver your core business value more quickly.  When we say business value, we are talking about whatever it is your organisation does that *makes a difference to your customers*.
 
 **How** does EngineerBetter work?
 
