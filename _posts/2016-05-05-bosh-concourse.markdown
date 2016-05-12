@@ -33,12 +33,8 @@ In Part 2 we will:
 
 - Create a deployment manifest for Concourse and deploy using BOSH
 - Install and get started with the fly cli
-- Create our first pipeline in Concourse
-
-In Part 3:
-
-- Update our Concourse BOSH deployment to add a Slack-notifications resource
-- Update our pipeline to use the new resource to send Slack notifications
+- Create a pipeline in Concourse
+- Add Slack notifications as a new resource type
 
 ### Setting up
 
