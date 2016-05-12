@@ -124,7 +124,7 @@ bosh target <your elastic ip address>
 
 {% endhighlight %}
 
-Newer versions of BOSH now use a concept called cloud-config which separates IaaS-specific config like IP addressing from the deployment manifests and makes it an operator rather than user concern. Set your chosen AWS region in `aws-cloud.yml` and then tell BOSH to update the config:
+BOSH version 2 now uses a concept called cloud-config which separates IaaS-specific config like IP addressing from the deployment manifests and makes it an operator rather than user concern. Set your chosen AWS region in `aws-cloud.yml` and then tell BOSH to update the config:
 
 {% highlight bash %}
 
@@ -144,4 +144,4 @@ Then use terraform to destroy your configuration in AWS:
 
 `terraform destroy`
 
-In the next part of this series, we will look at using this to deploy Concourse.
+In the 2nd part of this post, we will look at using BOSH to deploy Concourse.
