@@ -1,0 +1,17 @@
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: dan0young/eb-docker-ruby
+    tag: latest
+
+params:
+  ENVIRONMENT: staging
+
+inputs:
+  - name: engineerbetter-built
+  - name: jekyll-built
+
+run:
+  path: engineerbetter-built/ci/scripts/eb-staging-smoke-test.sh

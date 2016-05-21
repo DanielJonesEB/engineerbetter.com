@@ -1,0 +1,16 @@
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: dan0young/eb-docker-ruby
+    tag: latest
+
+inputs:
+  - name: engineerbetter.com
+
+outputs:
+  - name: jekyll-built
+
+run:
+  path: engineerbetter.com/ci/scripts/jekyll-build.sh
