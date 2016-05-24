@@ -8,6 +8,9 @@ timezone: Europe/London
 twitter_username: engineerbetter
 github_username:  engineerbetter
 
+# Exclude directories
+exclude: [ci]
+
 # Build settings
 markdown: kramdown
 
