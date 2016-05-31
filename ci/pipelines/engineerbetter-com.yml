@@ -22,11 +22,12 @@ jobs:
   public: false
   serial: true
   plan:
-  - get: engineerbetter-built
-    passed: [site-build]
-    trigger: true
-  - get: engineerbetter.com
-    trigger: true
+  - aggregate:
+    - get: engineerbetter-built
+      passed: [site-build]
+      trigger: true
+    - get: engineerbetter.com
+      trigger: true
   - task: unpack-site
     file: engineerbetter.com/ci/tasks/unpack-site.yml
   - put: cf-staging
@@ -44,12 +45,13 @@ jobs:
   public: false
   serial: true
   plan:
-  - get: engineerbetter.com
-    passed: [deploy-staging]
-    trigger: true
-  - get: engineerbetter-built
-    passed: [deploy-staging]
-    trigger: true
+  - aggregate:
+    - get: engineerbetter.com
+      passed: [deploy-staging]
+      trigger: true
+    - get: engineerbetter-built
+      passed: [deploy-staging]
+      trigger: true
   - task: unpack-site
     file: engineerbetter.com/ci/tasks/unpack-site.yml
   - task: eb-staging-smoke-test
@@ -71,10 +73,11 @@ jobs:
   public: false
   serial: true
   plan:
-  - get: engineerbetter.com
-    passed: [deploy-staging]
-  - get: engineerbetter-built
-    passed: [staging-tests]
+  - aggregate:
+    - get: engineerbetter.com
+      passed: [deploy-staging]
+    - get: engineerbetter-built
+      passed: [staging-tests]
   - task: unpack-site
     file: engineerbetter.com/ci/tasks/unpack-site.yml
   - aggregate:
@@ -93,11 +96,12 @@ jobs:
   public: false
   serial: true
   plan:
-  - get: engineerbetter.com
-    passed: [deploy-staging]
-  - get: engineerbetter-built
-    passed: [deploy-prod]
-    trigger: true
+  - aggregate:
+    - get: engineerbetter.com
+      passed: [deploy-staging]
+    - get: engineerbetter-built
+      passed: [deploy-prod]
+      trigger: true
   - task: unpack-site
     file: engineerbetter.com/ci/tasks/unpack-site.yml
   - task: eb-prod-acceptance-test
