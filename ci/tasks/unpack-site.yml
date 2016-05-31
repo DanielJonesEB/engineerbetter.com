@@ -8,7 +8,7 @@ image_resource:
 
 inputs:
   - name: engineerbetter-built
-  - name: engineerbetter-com
+  - name: engineerbetter.com
 
 outputs:
   - name: jekyll-built
