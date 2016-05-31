@@ -71,10 +71,12 @@ jobs:
   public: false
   serial: true
   plan:
+  - get: engineerbetter.com
+    passed: [deploy-staging]
   - get: engineerbetter-built
     passed: [staging-tests]
   - task: unpack-site
-    file: engineerbetter-built/ci/tasks/unpack-site.yml
+    file: engineerbetter.com/ci/tasks/unpack-site.yml
   - aggregate:
     - put: cf-prod
       params:
@@ -93,7 +95,6 @@ jobs:
   plan:
   - get: engineerbetter.com
     passed: [deploy-staging]
-    trigger: true
   - get: engineerbetter-built
     passed: [deploy-prod]
     trigger: true
