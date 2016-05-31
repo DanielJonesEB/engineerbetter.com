@@ -8,8 +8,9 @@ image_resource:
 
 inputs:
   - name: engineerbetter-built
+  - name: engineerbetter-com
 
 outputs:
   - name: jekyll-built
 run:
-  path: engineerbetter-built/ci/scripts/unpack-site.sh
+  path: engineerbetter.com/ci/scripts/unpack-site.sh
