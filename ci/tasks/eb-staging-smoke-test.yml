@@ -10,8 +10,7 @@ params:
   ENVIRONMENT: staging
 
 inputs:
-  - name: engineerbetter-built
   - name: jekyll-built
 
 run:
-  path: engineerbetter-built/ci/scripts/eb-staging-smoke-test.sh
+  path: jekyll-built/ci/scripts/eb-staging-smoke-test.sh

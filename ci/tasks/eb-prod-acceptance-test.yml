@@ -10,8 +10,7 @@ params:
   ENVIRONMENT: production
 
 inputs:
-  - name: engineerbetter-built
   - name: jekyll-built
 
 run:
-  path: engineerbetter-built/ci/scripts/eb-prod-acceptance-test.sh
+  path: jekyll-built/ci/scripts/eb-prod-acceptance-test.sh
