@@ -44,13 +44,16 @@ jobs:
   public: false
   serial: true
   plan:
+  - get: engineerbetter.com
+    passed: [deploy-staging]
+    trigger: true
   - get: engineerbetter-built
     passed: [deploy-staging]
     trigger: true
   - task: unpack-site
-    file: engineerbetter-built/ci/tasks/unpack-site.yml
+    file: engineerbetter.com/ci/tasks/unpack-site.yml
   - task: eb-staging-smoke-test
-    file: engineerbetter-built/ci/tasks/eb-staging-smoke-test.yml
+    file: jekyll-built/ci/tasks/eb-staging-smoke-test.yml
     on_success:
         put: slack-notify
         params:
@@ -88,13 +91,16 @@ jobs:
   public: false
   serial: true
   plan:
+  - get: engineerbetter.com
+    passed: [deploy-staging]
+    trigger: true
   - get: engineerbetter-built
     passed: [deploy-prod]
     trigger: true
   - task: unpack-site
-    file: engineerbetter-built/ci/tasks/unpack-site.yml
+    file: engineerbetter.com/ci/tasks/unpack-site.yml
   - task: eb-prod-acceptance-test
-    file: engineerbetter-built/ci/tasks/eb-prod-acceptance-test.yml
+    file: jekyll-built/ci/tasks/eb-prod-acceptance-test.yml
     on_success:
         put: slack-notify
         params:
