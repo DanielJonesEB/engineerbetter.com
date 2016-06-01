@@ -27,6 +27,7 @@ jobs:
       passed: [site-build]
       trigger: true
     - get: engineerbetter.com
+      passed: [site-build]
       trigger: true
   - task: unpack-site
     file: engineerbetter.com/ci/tasks/unpack-site.yml
