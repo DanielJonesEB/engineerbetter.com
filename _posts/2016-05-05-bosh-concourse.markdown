@@ -62,7 +62,7 @@ The Terraform config needs to know about some parameters that are specific to yo
 {% highlight bash %}
 
 cd terraform
-cp variables.tfvars.example variables.tfvars
+cp terraform.tfvars.example terraform.tfvars
 
 {% endhighlight %}
 
@@ -124,7 +124,7 @@ bosh target <your elastic ip address>
 
 {% endhighlight %}
 
-BOSH version 2 now uses a concept called cloud-config which separates IaaS-specific config like IP addressing from the deployment manifests and makes it an operator rather than user concern. Set your chosen AWS AZ and your subnet_id in `aws-cloud.yml`. Use `terraform output subnet_id` to get your subnet_id. 
+BOSH version 2 now uses a concept called cloud-config which separates IaaS-specific config like IP addressing from the deployment manifests and makes it an operator rather than user concern. Set your chosen AWS AZ and your subnet_id in `aws-cloud.yml`. Use `terraform output subnet_id` to get your subnet_id.
 
 Then you can tell BOSH to update the config:
 
