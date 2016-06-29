@@ -145,4 +145,4 @@ Then use terraform to destroy your configuration in AWS:
 
 `terraform destroy`
 
-In the 2nd part of this post, we will look at using BOSH to deploy Concourse.
+In the [2nd part](/bosh-concourse2.html) of this post, we will look at using BOSH to deploy Concourse.
