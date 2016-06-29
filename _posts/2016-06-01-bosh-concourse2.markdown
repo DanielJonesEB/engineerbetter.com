@@ -21,7 +21,7 @@ In [Part 1](/bosh-concourse.html) of this tutorial we set up a new BOSH director
 
 ### Setting up
 
-The terraform configuration in [Part 1](/bosh-concourse.html) will have already created the necessary security groups, subnets and ELB. Set the Concourse URL and a password for postgresql in these environment variables:
+The terraform configuration in [Part 1](/bosh-concourse.html) will have already created the necessary security groups, subnets and ELB. Set the Concourse URL and a password for postgresql in these environment variables. Your public `$CONCOURSE_URL` should match the `ci_hostname` terraform variable that you used earlier, to configure Route53. For example, https://ci.engineerbetter.com.
 
 {% highlight bash %}
 $DB_PASSWORD
