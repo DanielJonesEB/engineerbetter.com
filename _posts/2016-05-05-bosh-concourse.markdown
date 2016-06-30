@@ -123,7 +123,7 @@ bosh target <your elastic ip address>
 
 {% endhighlight %}
 
-BOSH version 2 now uses a concept called cloud-config which separates IaaS-specific config like IP addressing from the deployment manifests and makes it an operator rather than user concern. Set your chosen AWS AZ and your subnet_id in `aws-cloud.yml`. Use `terraform output subnet_id` to get your subnet_id, or just run the script provided in `bin/make_cloud_config.sh` to output `aws-cloud.yml`
+'BOSH 2.0' now uses a concept called cloud-config which separates IaaS-specific config like IP addressing from the deployment manifests and makes it an operator rather than user concern. Set your chosen AWS AZ and your subnet_id in `aws-cloud.yml`. Use `terraform output subnet_id` to get your subnet_id, or just run the script provided in `bin/make_cloud_config.sh` to output `aws-cloud.yml`
 
 Then you can tell BOSH to update the config:
 
