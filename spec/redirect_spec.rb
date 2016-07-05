@@ -1,6 +1,6 @@
-describe "/bad" do
-  it "serves an HTML meta redirect" do
+feature "/bad" do
+  scenario "gets redirected to Brain Aligned Delivery" do
     visit '/bad'
-    expect(page).to have_content '<meta http-equiv="refresh" content="0; url=/update/2016/07/01/brain-aligned-delivery.html">'
+    expect(page).to have_content 'Brain-Aligned Delivery'
   end  
 end
