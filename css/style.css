@@ -177,6 +177,18 @@
 		padding-top: 3em;
 	}
 
+/* Blog Posts */
+
+section.blog h1 {
+	font-size: 120%;
+	font-weight: 400;
+}
+
+section.blog em {
+	font-style: italic;
+	font-weight: inherit;
+}
+
 /* Form */
 
 	input[type="text"],
@@ -1131,3 +1143,19 @@
 			-ms-clip-path: polygon(0.7em 0, 100% 0%, 100% 100%, 0 100%, 0 1em);
 			clip-path: polygon(0.7em 0, 100% 0%, 100% 100%, 0 100%, 0 1em);
 		}
+
+
+.boxout {
+	font-size: 90%;
+	padding: 1em;
+	margin-bottom: 2em;
+}
+
+.boxout p {
+	margin: 0;
+}
+
+.boxout .button {
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+}
