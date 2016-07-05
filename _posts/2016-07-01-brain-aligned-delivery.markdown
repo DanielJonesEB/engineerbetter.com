@@ -4,6 +4,8 @@ title: Brain-Aligned Delivery Notes
 categories: update
 author: deejay
 comments: true
+redirect_from:
+  - /bad
 ---
 <img src="/images/blog/brain.jpg" class="image fit">
 

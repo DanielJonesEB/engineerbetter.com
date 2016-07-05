@@ -43,6 +43,8 @@ GEM
       mercenary (~> 0.3.3)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
+    jekyll-redirect-from (0.10.0)
+      jekyll (>= 2.0)
     jekyll-sass-converter (1.4.0)
       sass (~> 3.4)
     jekyll-watch (1.3.1)
@@ -101,6 +103,7 @@ DEPENDENCIES
   capybara-webkit
   html-proofer
   jekyll
+  jekyll-redirect-from
   rspec
 
 BUNDLED WITH
