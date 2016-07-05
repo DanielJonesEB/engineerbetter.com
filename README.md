@@ -8,7 +8,7 @@ Usage
 ```
 git clone https://github.com/EngineerBetter/engineerbetter.com/
 
-bundler install
+bundle install
 
 jekyll serve
 ```
