@@ -15,6 +15,8 @@ I'm giving a talk entitled [Brain-Aligned Delivery](http://sparkthechange.co.uk/
 
 Explaining the talk in a blog-style format is a large undertaking, and something that I may consider later. In the meantime I've written this to save attendees taking notes. There are some ideas in here that likely didn't make the final cut of the talk, or I didn't have time for.
 
+The [slides are available online](http://www.engineerbetter.com/brain-aligned-delivery), but won't make a huge amount of sense without these notes.
+
 # The Problem
 
 I make the case that the Western world is in the midst of a productivity crisis, perhaps caused by its financial and human capital being tied up in the incumbent enterprises that were born of the industrial revolution, the baby-boom generation, mass production, and assured growth.
