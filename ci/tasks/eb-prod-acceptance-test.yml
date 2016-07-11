@@ -7,10 +7,10 @@ image_resource:
     tag: latest
 
 params:
-  ENVIRONMENT: production
+  SPEC_APP_HOST: https://www.engineerbetter.com
 
 inputs:
   - name: jekyll-built
 
 run:
-  path: jekyll-built/ci/scripts/eb-prod-acceptance-test.sh
+  path: jekyll-built/ci/scripts/smoke-test.sh
