@@ -7,7 +7,7 @@ image_resource:
     tag: latest
 
 params:
-  SPEC_APP_HOST: https://www.engineerbetter.com
+  SPEC_APP_HOST: http://www.engineerbetter.com
 
 inputs:
   - name: jekyll-built
