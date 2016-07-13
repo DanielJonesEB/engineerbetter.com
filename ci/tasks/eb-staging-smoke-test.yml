@@ -7,10 +7,10 @@ image_resource:
     tag: latest
 
 params:
-  ENVIRONMENT: staging
+  SPEC_APP_HOST: http://www-staging.engineerbetter.com
 
 inputs:
   - name: jekyll-built
 
 run:
-  path: jekyll-built/ci/scripts/eb-staging-smoke-test.sh
+  path: jekyll-built/ci/scripts/smoke-test.sh

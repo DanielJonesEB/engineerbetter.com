@@ -1,0 +1,3 @@
+[submodule "brain-aligned-delivery"]
+	path = brain-aligned-delivery
+	url = https://github.com/EngineerBetter/brain-aligned-delivery.git
