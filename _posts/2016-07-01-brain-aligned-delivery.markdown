@@ -9,7 +9,7 @@ redirect_from:
 ---
 <img src="/images/blog/brain.jpg" class="image fit">
 
-I'm giving a talk entitled [Brain-Aligned Delivery](http://sparkthechange.co.uk/sessions/brain-aligned-delivery/) at [Spark The Change](http://sparkthechange.co.uk/). The presentation is an aggregration of various cognitive psychology and neuroscience findings that apply to working practices, and this post serves as accompanying notes, with links to its many *references*.
+I'm giving a talk entitled [Brain-Aligned Delivery](http://sparkthechange.co.uk/sessions/brain-aligned-delivery/) at [Spark The Change](http://sparkthechange.co.uk/). The presentation is an aggregration of various cognitive psychology and neuroscience findings that apply to working practices, and this post serves as accompanying notes, with links to its many **references**.
 
 <!--more-->
 
@@ -68,7 +68,7 @@ Gamers may be intrigued by the opinion that the act of playing video games is in
   <a class="button special" href="https://www.amazon.co.uk/Game-Mechanics-Advanced-Design-Voices/dp/0321820274/">Game Mechanics: Advanced Game Design</a>
 </section>
 
-The present bias is an observed phenomenon whereby humans value things more highly the closer they are, and discount both value and cost the further away they are. This explains why people often purchase items they cannot afford on credit, and why you'd give your sandwich to a starving child your walked past but not donate to a charity.
+The present bias is an observed phenomenon whereby humans value things more highly the closer they are, and discount both value and cost the further away they are. This explains why people often purchase items they cannot afford on credit, and why you'd give your sandwich to a starving child that you walk past but not donate to a charity.
 
 The present bias has a neurological basis in the firing rate of neurons that signify value in the decision-making process. Whilst we can rationalise about our present bias, we cannot ever escape it. We would do better to harness the present bias than to ignore it.
 
@@ -109,7 +109,7 @@ Functional teams (silos) reduce the likelihood of team members observing the pai
 
 The human body appears to have sophisticated mechanisms for allowing us to understand another's emotional state, and by using electronic communications media we are failing to exploit these abilities. The mechanisms described enforce sociable behaviour, which I argue is a subjective term we use to describe positive-sum outcomes for groups of humans. These are the sorts of outcomes we want for our organisations, and so it seems daft not to be making the most of the abilities we have.
 
-The mirror system (mirror neurons are not proven to exist in humans because such proof would require invasive procedures) may facilitate a feedback loop whereby a person sees a facial expression, the mirror network mimics that expression, physiological feedback is then fed into the brain, and we come to understand their emotional state: in essence, we 'try on' their face.
+The mirror system (mirror neurons are not proven to exist in humans because such proof would require invasive procedures) may facilitate a feedback loop whereby a person sees a facial expression, the mirror network mimics that expression, physiological feedback is then fed into the brain, and we come to understand their emotional state: in essence, we 'try on' their face. By foregoing face-to-face communication, we are failing to exploit this mechanism.
 
 <section class="wrapper style2 special boxout">
   <p>Botox users are on average less able to identify the emotion expressed by a face.</p>
@@ -137,9 +137,9 @@ Symdrome E is a term for a collection of symptoms that accompany genocide. It fe
   <a class="button special" href="http://www.thelancet.com/journals/lancet/article/PIIS0140-6736(97)09385-9/abstract">Syndrome E</a>
 </section>
 
-Emotions help us make decisions with sociable outcomes. Our physiological responses help ensure sociable outcomes from our interactions. Our neurological responses allow us to better understand the emotional state of others, making the first step to ensuring a social outcome. If we contrast all of this with 80s management philosophy of zero-sum games, winning and all costs, and treating business as war, it is no surprise that we have a status quo of sociopathic corporations pursuing profit at the cost of humanity.
+Emotions help us make decisions with sociable outcomes. Our physiological responses help ensure sociable outcomes from our interactions. Our neurological responses allow us to better understand the emotional state of others, making the first step to ensuring a sociable outcome. If we contrast all of this with 80s management philosophy of zero-sum games, winning and all costs, and treating business as war, it is no surprise that we have a status quo of sociopathic corporations pursuing profit at the cost of humanity.
 
-I highlight a study that correlated social connectedness more positively with productivity, than staff experience and education correlate with productivity.
+I highlight a study that correlated social connectedness more positively with productivity than did staff experience or education.
 
 <section class="wrapper style2 special boxout">
   <p>It can be argued that human culture, and life as known on Earth, are both emergent as the result of positive-sum games playing out on ever-larger scales.</p>
@@ -167,16 +167,16 @@ Seeing the beneficiaries of one's work is also demonstrated to be both motivatin
   <a class="button special" href="http://www.sciencedirect.com/science/article/pii/S0749597806000641">Impact and the Art of Motivation Maintenance</a>
 </section>
 
-Humans also find problem-solving intrinsically rewarding, and this is why the video games industry exists. Video games are nothing more than exercises in learning, formed as problem-solving exercises of ever-increasing difficulty wrapped up in snazzy graphics and fantasy worlds. I highlight research in _The Kids Are Alright_ which notices that the gamer generation _expects_ autonomy and problem solving.
+Humans also find problem-solving intrinsically rewarding, and this is why the video games industry exists. Video games are nothing more than exercises in learning, formed as problem-solving exercises of ever-increasing difficulty wrapped up in snazzy graphics and fantasy worlds. I highlight research in _The Kids Are Alright_ which observes that the gamer generation _expects_ autonomy and problem solving.
 
 <section class="wrapper style2 special boxout">
-  <p>Workers who grew up playing games expect to solve problems rather than follow instructions.</p>
+  <p>Workers who grew up playing video games expect to solve problems rather than follow instructions.</p>
   <a class="button special" href="https://www.amazon.co.uk/Kids-are-Alright-Generation-Workplace/dp/1422104354/">The Kids Are Alright</a>
   <p>The video games industry is worth around $91,000,000,000.</p>
   <a class="button special" href="http://ukie.org.uk/research">UKIE</a>
 </section>
 
-Given that we now know the correct sort of rewards to offer, we can focus on making them more frequent (to increase the compulsion to gain that reward). Working in small batches features this as a side-effect, along with increased certainty per task, and increased granularity and visibility of work.
+Given that we now know the correct sort of rewards to offer, we can focus on making them more frequent (to increase the compulsion to receive that reward). Working in small batches features this as a side-effect, along with increased certainty per task, and increased granularity and visibility of work.
 
 Of interest to teams to whom ongoing quality is important is a finding that suggests, contrary to popular opinion, that willpower may be replenished by reward, rather than by consumption of food. By structuring work to offer frequent rewards, we can increase the willpower of our teams.
 
