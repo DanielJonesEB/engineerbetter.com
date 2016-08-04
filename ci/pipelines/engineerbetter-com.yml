@@ -35,7 +35,6 @@ jobs:
     params:
       manifest: jekyll-built/manifest.yml
       path: jekyll-built/_site/
-      current_app_name: engineerbetter-com
     on_failure:
         put: slack-notify
         params:
@@ -87,7 +86,6 @@ jobs:
       params:
         manifest: jekyll-built/manifest-prod.yml
         path: jekyll-built/_site/
-        current_app_name: engineerbetter-com
     on_failure:
           put: slack-notify
           params:
