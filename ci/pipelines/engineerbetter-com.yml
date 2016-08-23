@@ -76,7 +76,7 @@ jobs:
   plan:
   - aggregate:
     - get: engineerbetter.com
-      passed: [deploy-staging]
+      passed: [staging-tests]
     - get: engineerbetter-built
       passed: [staging-tests]
   - task: unpack-site
@@ -99,7 +99,7 @@ jobs:
   plan:
   - aggregate:
     - get: engineerbetter.com
-      passed: [deploy-staging]
+      passed: [deploy-prod]
     - get: engineerbetter-built
       passed: [deploy-prod]
       trigger: true
