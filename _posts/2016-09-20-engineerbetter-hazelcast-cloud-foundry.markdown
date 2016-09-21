@@ -18,4 +18,4 @@ By exploiting the latest features of Bosh, and the Cloud Foundry service broker 
 
 Working with Hazelcast has been a pleasure, not least of all as they understand the value of the capabilities of the Cloud Foundry platform, and are aiming to deliver a solution that fully exploits them. The solution that Hazelcast are working on is how _all_ Cloud Foundry services should work.
 
-If you're looking for assistance integrating Hazelcast IMDG with Cloud Foundry, or integrating data services with Cloud Foundry and Pivotl Cloud Foundry, we'd love to help.
+If you're looking for assistance integrating Hazelcast IMDG with Cloud Foundry, or integrating data services with Cloud Foundry and Pivotal Cloud Foundry, we'd love to help.
