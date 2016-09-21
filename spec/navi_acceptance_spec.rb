@@ -6,7 +6,7 @@ feature "Basic navigation" do
     click_link 'How We Work', match: :first
     expect(page).to have_content 'Our values'
 
-    click_link 'Cloud Foundry', match: :first
+    click_link 'What We Do', match: :first
     expect(page).to have_content 'We offer holistic services'
 
     click_link 'Rates', match: :first

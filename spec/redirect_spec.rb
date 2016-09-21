@@ -4,6 +4,11 @@ feature "/bad" do
     expect(page).to have_content 'Brain-Aligned Delivery'
   end
 
+  scenario 'Cloud Foundry redirects to What We Do' do
+    visit '/cloud-foundry.html'
+    expect(page).to have_content 'What We Do'
+  end
+
   scenario 'Values redirects to How We Work' do
     visit '/business-values.html'
     expect(page).to have_content 'Our values'
