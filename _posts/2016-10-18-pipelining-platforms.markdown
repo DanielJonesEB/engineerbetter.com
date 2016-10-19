@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  Pipelining Platforms
+title:  Pipelining Platforms, just like Apps
 author: dan
 comments: true
 ---
 <img src="/images/blog/iceland-pipeline.jpg" class="image fit">
 
-If you were to continuously deliver an entire, multi-tenant enterprise developer platform, including data services and all the underpinning cloud infrastructure, what would it mean to your teams and your business?
+Imagine you're responsible for operating shared IT services in a global enterprise, providing a self-service platform to your internal developers. If you were to continuously deliver this platform, in exactly the same way as cloud native apps themselves, what would it mean to your teams and your business?
 
 Firstly, try to imagine a shared IT platform in a global company where its suddenly economical to work in small batch sizes, allowing you to actually embrace change rather than resist it.
 
