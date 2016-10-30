@@ -22,7 +22,7 @@ layout: blog
       </div>
       {% endfor %}
 
-        {% for post in site.posts offset:1 limit:9 %}
+        {% for post in site.posts offset:1 %}
              {% capture currentmod %}{{ forloop.index0 | mod:2 }}{% endcapture %}
 
              {% if currentmod == '0' or forloop.first %}
