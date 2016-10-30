@@ -67,7 +67,7 @@ We needed to try and determine whether the containers alive in Garden were 'vali
 $ gaol list > containers-before
 # 15 minutes later...
 $ gaol list > containers-after
-$ diff --side <(sort containers-before) <(sort containers-after) | grep ''
+$ diff --side <(sort containers-before) <(sort containers-after) | grep -c -e '<' -e '>' -e '|'
 ```
 
 This yielded the fact that the majority of containers were living longer that 15 minutes. It only then dawned on us that we could simply use `ps` to see how long some of these processes had been kicking around for:
