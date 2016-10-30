@@ -44,7 +44,7 @@ We `bosh ssh`'d onto the Worker VM to investigate further, first poking around i
 <section class="wrapper style2 special boxout">
   **Lesson 3:**
 
-  `gaol` is invaluable for poking around Garden
+  `gaol` is invaluable for poking around Garden.
 </section>
 
 We used `gaol list` to have a look at the containers this Garden instance was running, and found a very long list of UUIDs. All of the UUIDs from `fly containers` appeared in `gaol list`, which would have to be a Universe-breaking coincidence if Concourse wasn't exposing Garden UUIDs via its UI. We're rather glad that it does, as this made debugging a little easier.
