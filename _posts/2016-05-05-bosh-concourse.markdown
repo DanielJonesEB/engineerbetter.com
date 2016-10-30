@@ -39,7 +39,9 @@ In Part 2 we will:
 
 First, clone the GitHub repo accompanying this tutorial:
 
-`git clone https://github.com/EngineerBetter/bosh-concourse-setup`
+```shell_session
+$ git clone https://github.com/EngineerBetter/bosh-concourse-setup
+```
 
 We're going to use Terraform to express our desired AWS environment as code, so we can put this in source control along with everything else. The terraform configuration we’re using will create the network and security resources for BOSH, but also an elastic load balancer for Concourse with an SSL listener. However, this does assume that you already have the following:
 
@@ -58,20 +60,22 @@ Once you have these, it's time to install some tools! You’ll need to use eithe
 
 The Terraform config needs to know about some parameters that are specific to you and your AWS environment. These are defined in `variables.tf` and we set the corresponding values either in environment variables, or a file. You can use the example tfvars file:
 
-{% highlight bash %}
-
-cd terraform
-cp terraform.tfvars.example terraform.tfvars
-
-{% endhighlight %}
+```shell_session
+$ cd terraform
+$ cp terraform.tfvars.example terraform.tfvars
+```
 
 Then edit `variables.tfvars` to provide your own values. Set your desired AWS region in `variables.tf`. Ensure terraform is in your path, then apply the configuration:
 
-`terraform apply`
+```shell_session
+$ terraform apply
+```
 
 Terraform will execute the plan and save the state of your environment locally. If you need to make any changes, just reapply and it will converge towards your new desired state. A nice feature of terraform is being able to output a dependency graph of your resources. If you have Graphviz installed, you can do this:
 
-`terraform graph | dot -Tpng > graph.png`
+```shell_session
+$ terraform graph | dot -Tpng > graph.png
+```
 
 Which produces this:
 
@@ -84,8 +88,7 @@ You should check the terraform output values and make a note of the elastic IP w
 Now we should have an EIP, VPC, Subnet and Security Groups ready for BOSH.
 We're going to create a manifest for `bosh-init`. First you should set the following environment variables:
 
-{% highlight bash %}
-
+```shell_session
 $AWS_ACCESS_KEY_ID
 $AWS_SECRET_ACCESS_KEY
 $AWS_REGION
@@ -93,18 +96,21 @@ $AWS_AZ
 $BOSH_PASSWORD
 $AWS_KEYPAIR_KEY_NAME
 $PRIVATE_KEY_PATH
-
-{% endhighlight %}
+```
 
 
 Then you can go ahead and create the `bosh-director.yml` manifest:
 
-`./bin/make_manifest_bosh-init.sh`
+```shell_session
+$ ./bin/make_manifest_bosh-init.sh
+```
 
 
 Once this is done, you are ready to deploy the BOSH Director. Are you ready?
 
-`bosh-init deploy bosh-director.yml`
+```shell_session
+$ bosh-init deploy bosh-director.yml
+```
 
 Now go and make yourself a cup of tea - this deployment will take a while.
 While you're drinking your tea, why not read [more about BOSH](https://bosh.io/docs)?
@@ -117,21 +123,17 @@ Back in your terminal, you should eventually see something like this:
 
 Once the director is deployed, you can target it using the bosh cli and log in using the admin account and your chosen password.
 
-{% highlight bash %}
-
-bosh target <your elastic ip address>
-
-{% endhighlight %}
+```shell_session
+$ bosh target <your elastic ip address>
+```
 
 'BOSH 2.0' now uses a concept called cloud-config which separates IaaS-specific config like IP addressing from the deployment manifests and makes it an operator rather than user concern. Set your chosen AWS AZ and your subnet_id in `aws-cloud.yml`. Use `terraform output subnet_id` to get your subnet_id, or just run the script provided in `bin/make_cloud_config.sh` to output `aws-cloud.yml`
 
 Then you can tell BOSH to update the config:
 
-{% highlight bash %}
-
-bosh update cloud-config aws-cloud.yml
-
-{% endhighlight %}
+```shell_session
+$ bosh update cloud-config aws-cloud.yml
+```
 
 You can use `bosh cloud-config` to output your current configuration at any time.
 
@@ -139,10 +141,14 @@ Congratulations, you have a working BOSH Director!
 
 Once you've finished playing and want to tear down your whole environment, first tell bosh-init and to delete the deployment:
 
-`bosh-init delete bosh-director.yml`
+```shell_session
+$ bosh-init delete bosh-director.yml
+```
 
 Then use terraform to destroy your configuration in AWS:
 
-`terraform destroy`
+```shell_session
+$ terraform destroy
+```
 
 In the [2nd part](/bosh-concourse2.html) of this post, we will look at using BOSH to deploy Concourse.

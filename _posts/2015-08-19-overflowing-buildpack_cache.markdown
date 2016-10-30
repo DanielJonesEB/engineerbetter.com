@@ -19,7 +19,7 @@ Monday morning on-site at a client, I came in to find that continuous acceptance
 
 Here's an example of what happened on push:
 
-{% highlight bash %}
+```shell_session
 Using manifest file manifest.yml
 OK
 
@@ -53,7 +53,7 @@ Starting app push-test in org -snip!- / space -snip!- as -snip!-...
 
 FAILED
 Server error, status code: 400, error code: 170001, message: Staging error: cannot get instances since staging failed
-{% endhighlight %}
+```
 
 A quick poke around the state of VMs in the deployment showed that the NFS Server had maxed out its persistent disk usage. The NFS Server's sole responsibility is to host some persistent storage that the Cloud Controller can then map onto. In other deployments this storage area may be on the Cloud Controller itself or an S3-compatible blobstore.
 

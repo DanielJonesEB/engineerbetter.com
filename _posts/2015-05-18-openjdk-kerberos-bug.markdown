@@ -15,14 +15,14 @@ I also observed the same bug in the Oracle JRE v8_u45, which shows how much shar
 
 I discovered the bug on-site with an enterprise client. After updating their customisation of the Cloud Foundry Java buildpack, apps on the PaaS ceased to be able to authenticate via Kerberos. This was originally manifested by a `NullPointerException` being thrown by Spring Security Kerberos' `SunJaasKerberosTicketValidator`
 
-{% highlight java %}
+```java
 o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
 
  java.lang.NullPointerException: null
        at org.springframework.security.kerberos.authentication.sun.SunJaasKerberosTicketValidator$KerberosValidateAction.run(SunJaasKerberosTicketValidator.java:162)
        at org.springframework.security.kerberos.authentication.sun.SunJaasKerberosTicketValidator$KerberosValidateAction.run(SunJaasKerberosTicketValidator.java:151)
        at java.security.AccessController.doPrivileged(Native Method)
-{% endhighlight %}
+```
 
 Version 1.0.0-RELEASE of the Spring Kerberos library defensively checked against the unpopulated context and [threw a `BadCredentials` exception](https://github.com/spring-projects/spring-security-kerberos/commit/f046bd7c69d6dad74eb06a7651cd68060b31ff6f), but thankfully now there appears to be [a better workaround](https://github.com/spring-projects/spring-security-kerberos/commit/5e28e87f581629724ff8a0f6d24c3ebc591a00bb).
 

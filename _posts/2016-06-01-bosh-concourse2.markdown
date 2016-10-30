@@ -23,20 +23,20 @@ In [Part 1](/bosh-concourse.html) of this tutorial we set up a new BOSH director
 
 The terraform configuration in [Part 1](/bosh-concourse.html) will have already created the necessary security groups, subnets and ELB. Set the Concourse URL and a password for postgresql in these environment variables. Your public `$CONCOURSE_URL` should match the `ci_hostname` terraform variable that you used earlier, to configure Route53. For example, https://ci.engineerbetter.com.
 
-{% highlight bash %}
+```bash
 $DB_PASSWORD
 $CONCOURSE_URL
-{% endhighlight %}
+```
 
 In this example we're going to use GitHub to authenticate our Concourse users, but you could also use basic authentication. First, create a new [OAuth application](https://github.com/settings/applications/new) in GitHub and set your authorisation callback URL to `https://<your CONCOURSE_URL>/auth/github/callback`. Also, create a 'CI' team containing the users who are authorised to access Concourse.
 
 Then set your GitHub organization, client_id and client_secret:
 
-{% highlight bash %}
+```bash
 $GITHUB_ORG
 $GITHUB_CLIENT_ID
 $GITHUB_CLIENT_SECRET
-{% endhighlight %}
+```
 
 ### Create a manifest and upload stemcells & releases
 
@@ -48,11 +48,11 @@ You should now have a new `concourse.yml` manifest in your working directory. Ha
 
 Go ahead and upload the latest versions of the necessary stemcell & releases:
 
-{% highlight bash %}
-bosh upload stemcell https://bosh.io/d/stemcells/bosh-aws-xen-hvm-ubuntu-trusty-go_agent
-bosh upload release https://bosh.io/d/github.com/concourse/concourse
-bosh upload release https://bosh.io/d/github.com/cloudfoundry-incubator/garden-linux-release
-{% endhighlight %}
+```shell_session
+$ bosh upload stemcell https://bosh.io/d/stemcells/bosh-aws-xen-hvm-ubuntu-trusty-go_agent
+$ bosh upload release https://bosh.io/d/github.com/concourse/concourse
+$ bosh upload release https://bosh.io/d/github.com/cloudfoundry-incubator/garden-linux-release
+```
 
 The commands `bosh stemcells` and `bosh releases` will let you know what the BOSH director has in its blobstore.
 
@@ -60,10 +60,10 @@ The commands `bosh stemcells` and `bosh releases` will let you know what the BOS
 
 You're ready to deploy concourse.
 
-{% highlight bash %}
-bosh deployment concourse.yml
-bosh deploy
-{% endhighlight %}
+```shell_session
+$ bosh deployment concourse.yml
+$ bosh deploy
+```
 
 Watch while BOSH compiles packages, creates the VMs and runs the jobs defined in the manifest. Keep an eye on EC2 to see instances being used for the deployment. My BOSH Director already has the packages in its blobstore, so I see the following output.
 
@@ -81,9 +81,9 @@ Now, it's time to get familiar with the `fly` cli tool if you're not already. Yo
 
 The `fly` tool uses the concept of targets to ensure that you're always being explicit about *where* commands should be executed. Choose a name for your new CI server target and then run the following:
 
-{% highlight bash %}
-fly -t target_name login -c https://<your-concourse-url>
-{% endhighlight %}
+```shell_session
+$ fly -t target_name login -c https://<your-concourse-url>
+```
 
 If you haven't already looked at the excellent Concourse documentation, you'll find they have a great [hello world tutorial](http://concourse.ci/hello-world.html)
 
