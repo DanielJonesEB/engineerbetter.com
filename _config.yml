@@ -2,7 +2,7 @@
 title: EngineerBetter
 email: contact@engineerbetter.com
 description: > # this means to ignore newlines until "baseurl:"
-  The UK Cloud Foundry specialists
+  Cloud Foundry, BOSH and Concourse CI services in the United Kingdom
 baseurl: "" # the subpath of your site, e.g. /blog/
 timezone: Europe/London
 twitter_username: engineerbetter
