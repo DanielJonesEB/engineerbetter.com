@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Notes on Continuously Deplpoying Cloud Foundry
+title:  Notes on Continuously Deploying Cloud Foundry
 author: pete
 comments: true
 ---
@@ -15,6 +15,8 @@ It comes in two versions: open source, and a proprietary version that adds some 
 Cloud Foundry is **large**. A single high-availability deployment across three AWS availability zones can require more than 50 VMs. These manage logging, routing, ensuring processes are scaled and striped correctly, and all sorts of other stuff you would never want to have to manage yourself.
 
 Cloud Foundry is also **complex** to deploy. If you're deploying PCF, you'll typically deploy [Pivotal Operations Manager](https://network.pivotal.io/products/ops-manager) (Ops Manager), which deploys a [BOSH Director](https://bosh.io/docs/bosh-components.html), which deploys and manages the VMs and applications needed to run Cloud Foundry. Not only are deployments slow (BOSH creates/updates each VM in serial to ensure high availability), but you need to prepare you IaaS first and there are dozens of form fields to fill out in Ops Manager before you can click "install" (or hundreds in your manifest if you're using the open-source version and deploying with Bosh directly).
+
+<!--more-->
 
 ## Traditional Ops
 
