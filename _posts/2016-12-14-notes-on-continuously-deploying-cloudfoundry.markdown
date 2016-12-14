@@ -33,12 +33,12 @@ Cloud Foundry allows app developers to deploy and scale apps seamlessly, so what
 
 If you're deploying Cloud Foundry from scratch you'll need to do the following six steps:
 
-1. Download the latest version of PCF - you'll need [Pivotal Elastic Runtime (ERT)](https://network.pivotal.io/products/elastic-runtime/) and [Ops Manager](https://network.pivotal.io/products/ops-manager)
-1. [Set up your IaaS](https://docs.pivotal.io/pivotalcf/1-8/installing/) (VPCs, S3 buckets etc if you're on AWS; clusters, resource pools, and datastores on vSphere) and [Deploy an Ops Manager VM](https://docs.pivotal.io/pivotalcf/1-8/customizing/cloudform-om-deploy.html)
-3. [Configure the Ops Manager credentials](https://docs.pivotal.io/pivotalcf/1-8/customizing/cloudform-om-config.html#access-om)
-4. [Configure and deploy a BOSH Director using Ops Manager](https://docs.pivotal.io/pivotalcf/1-8/customizing/cloudform-om-config.html#access-om)
-5. [Upload ERT to the Ops Manager](https://docs.pivotal.io/pivotalcf/1-8/customizing/add-delete.html)
-6. [Configure and deploy ERT via the Ops Manager](https://docs.pivotal.io/pivotalcf/1-8/customizing/cloudform-er-config.html)
+- Download the latest version of PCF - you'll need [Pivotal Elastic Runtime (ERT)](https://network.pivotal.io/products/elastic-runtime/) and [Ops Manager](https://network.pivotal.io/products/ops-manager)
+- [Set up your IaaS](https://docs.pivotal.io/pivotalcf/1-8/installing/) (VPCs, S3 buckets etc if you're on AWS; clusters, resource pools, and datastores on vSphere) and [Deploy an Ops Manager VM](https://docs.pivotal.io/pivotalcf/1-8/customizing/cloudform-om-deploy.html)
+- [Configure the Ops Manager credentials](https://docs.pivotal.io/pivotalcf/1-8/customizing/cloudform-om-config.html#access-om)
+- [Configure and deploy a BOSH Director using Ops Manager](https://docs.pivotal.io/pivotalcf/1-8/customizing/cloudform-om-config.html#access-om)
+- [Upload ERT to the Ops Manager](https://docs.pivotal.io/pivotalcf/1-8/customizing/add-delete.html)
+- [Configure and deploy ERT via the Ops Manager](https://docs.pivotal.io/pivotalcf/1-8/customizing/cloudform-er-config.html)
 
 If you make no mistakes, this takes a couple of hours to half a day to complete. Once it's all done, you'll at least want to run the Cloud Foundry  [smoke tests](https://github.com/cloudfoundry/cf-smoke-tests), and possibly more intensive testing depending on your use-case.
 
