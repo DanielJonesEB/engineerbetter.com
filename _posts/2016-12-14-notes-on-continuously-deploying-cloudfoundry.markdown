@@ -4,6 +4,9 @@ title:  Notes on Continuously Deploying Cloud Foundry
 author: pete
 comments: true
 ---
+
+<img src="/images/blog/continuous-delivery-ice-cream-factory.jpg" class="image fit">
+
 ## What is Cloud Foundry?
 
 Cloud Foundry is a platform-as-a-service (PaaS) that helps manage the messy parts of running a web application: networks, servers, security, logging, scaling, healing etc. For developers it's great because you can spend less time on ops, and more time writing code that directly adds value to your business.
