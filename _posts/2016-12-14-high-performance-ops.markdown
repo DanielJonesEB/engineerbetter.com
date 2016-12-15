@@ -7,9 +7,9 @@ comments: true
 
 <img src="/images/blog/lego-cf-team.jpg" class="image fit">
 
-What can Enterprise IT ops look like in a world eaten by software? How do you cope with vendor releases every few days when your release cycle takes weeks?
+How do you cope with vendor releases every few days when your release cycle takes weeks? This is just one of the challenges that faces enterprise IT teams that need to operate developer platforms like Cloud Foundry.
 
-Last week I spoke at [London Continuous Delivery](https://www.meetup.com/London-Continuous-Delivery/) about how EngineerBetter [have been helping a global bank](2016/12/14/notes-on-continuously-deploying-cloudfoundry.html) continuously deliver Cloud Foundry and operate their platform like a product team. Magic can happen when you start working in small batch sizes.
+Cloud Foundry has seen a big uptake in the financial services and a number of our customers are to be found in this space. Last week I spoke at [London Continuous Delivery](https://www.meetup.com/London-Continuous-Delivery/) about how EngineerBetter have recently been helping a global bank [continuously deploy Cloud Foundry](/2016/12/14/notes-on-continuously-deploying-cloudfoundry.html). This is just the beginning of a process of continuous improvement, but already we have seen the magic can happen when you start working in small batch sizes and run your platform team like a software product team.
 
 <!--more-->
 
