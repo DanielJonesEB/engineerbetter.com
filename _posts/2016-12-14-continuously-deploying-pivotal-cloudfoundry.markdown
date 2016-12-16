@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Notes on Continuously Deploying Cloud Foundry
+title:  Continuously Deploying Pivotal Cloud Foundry
 author: pete
 comments: true
 ---
