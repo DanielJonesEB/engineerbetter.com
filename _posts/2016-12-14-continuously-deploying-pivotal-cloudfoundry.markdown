@@ -7,13 +7,13 @@ comments: true
 
 <img src="/images/blog/continuous-delivery-ice-cream-factory.jpg" class="image fit">
 
-EngineerBetter recently helped a large financial organisation **fully automate** their Pivotal Cloud Foundry deployments, replacing a manual process that took a whole team more than a week with an **hands-off** continuous pipeline that **took hours**. We didn't just automate the deployment of their PCF: we **automated** the creation of their **cloud infrastructure**; deployment of **upgrades**; installation of **security updates**; and all with **full testing**.
+EngineerBetter recently helped a large financial organisation **fully automate** their Pivotal Cloud Foundry deployments, taking a manual process that took a whole team more than a week, and replacing it with an **hands-off** continuous depoyment pipeline that **took hours**. We didn't just automate the deployment of their PCF: we **automated** the creation of their **cloud infrastructure**; deployment of **upgrades**; installation of **security updates**; and all with **full testing**.
 
 <!--more-->
 
 ## Traditional Ops
 
-In September we were engaged by Pivotal to help one of their clients (a large financial organisation) try and deploy Cloud Foundry in a new way. This financial organisation has a lot of experience with Cloud Foundry and some very large deployments. However they were using a traditional, release-oriented approach when it came to deploying and maintaining Cloud Foundry. When a new PCF release came out the team would deploy it to a staging environment, test it, and "release" it to separate ops teams managing prod environments around the world. The upgrade would take around a week, and tied up nearly all of the team's time while it was being done.
+The customer has a lot of experience with Cloud Foundry and some very large deployments. However they were using a traditional, release-oriented approach when it came to deploying and maintaining Cloud Foundry. When a new PCF release came out the team would deploy it to a staging environment, test it, and "release" it to separate ops teams managing prod environments around the world. The upgrade would take around a week, and tied up nearly all of the team's time while it was being done.
 
 PCF gets updated often. From mid-October to mid-November there averaged an update every 4 days. This caused a lot of headaches for the team as updates would get backed-up — new versions were coming out faster than the team could deploy, test, and release them leaving prod environments exposed to CVEs for weeks (when this should be measured in hours); a lot of the same manual work was repeated for every upgrade; And they were left with no time to test and deploy new features that development teams were asking them for.
 
