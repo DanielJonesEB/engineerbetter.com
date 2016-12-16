@@ -108,9 +108,9 @@ Our code is not pretty. We've used some hacky methods to glue together tools tha
 
 Since we're now continuously upgrading Cloud Foundry, when we add features likes related to security or availability, it's not enough to accept those features on the current version. We need to write tests to assert the functionality so we can catch regressions. One of our requirements is that we can withstand loss of an availability zone (AZ). So after each deployment we run a test that:
 
-1) Destroys all VMs in an AZ
-2) Checks the [smoke tests](https://github.com/cloudfoundry/cf-smoke-tests) still pass
-3) Re-creates the VMs
+1. 1) Destroys all VMs in an AZ
+1. 2) Checks the [smoke tests](https://github.com/cloudfoundry/cf-smoke-tests) still pass
+1. 3) Re-creates the VMs
 
 Replacing manual tests with automated tests does take a while (especially for infrastructure), but you quickly build up the tooling to make each subsequent test easier to implement.
 
