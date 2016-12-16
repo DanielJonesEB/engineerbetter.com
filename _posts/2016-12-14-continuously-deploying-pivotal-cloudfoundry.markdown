@@ -9,6 +9,8 @@ comments: true
 
 EngineerBetter recently helped a large financial organisation **fully automate** their Pivotal Cloud Foundry deployments, taking a manual process that took a whole team more than a week, and replacing it with an **hands-off** continuous depoyment pipeline that **took hours**. We didn't just automate the deployment of their PCF: we **automated** the creation of their **cloud infrastructure**; deployment of **upgrades**; installation of **security updates**; and all with **full testing**.
 
+Cloud Foundry brings continuous delivery to developers. EngineerBetter are bringing continuous delivery to platform operators.
+
 <!--more-->
 
 ## Traditional Ops
