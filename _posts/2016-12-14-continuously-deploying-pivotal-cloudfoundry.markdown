@@ -13,7 +13,7 @@ Cloud Foundry is a platform-as-a-service (PaaS) that helps manage the messy part
 
 As a CIO, Cloud Foundry is great because it can be deployed on top of a number of IaaSs including AWS, vSphere, Azure and Google Cloud. By providing this abstraction layer, it makes it much easier to migrate applications between IaaSs and avoid vendor lock-in. Furthermore Cloud Foundry apps need to be written as [12-factor apps](https://12factor.net/), which promotes ease of maintenance.
 
-It comes in two versions: open source, and a proprietary version that adds some extra closed-source features. At Engineer Better we've spent the last three months helping a large bank deploy the closed-source version, *Pivotal Cloud Foundry* (PCF).
+It comes in two versions: open source, and a proprietary version that adds some extra closed-source features. At Engineer Better we've spent the last three months helping a large financial organisation deploy the closed-source version, *Pivotal Cloud Foundry* (PCF).
 
 Cloud Foundry is **large**. A single high-availability deployment across three AWS availability zones can require more than 50 VMs. These manage logging, routing, ensuring processes are scaled and striped correctly, and all sorts of other stuff you would never want to have to manage yourself.
 
@@ -23,11 +23,11 @@ Cloud Foundry is also **complex** to deploy. If you're deploying PCF, you'll typ
 
 ## Traditional Ops
 
-In September we were engaged by Pivotal to help one of their clients (a large bank) try and deploy Cloud Foundry in a new way. This bank has a lot of experience with Cloud Foundry and some very large deployments. However they were using a traditional, release-oriented approach when it came to deploying and maintaining Cloud Foundry. When a new PCF release came out the team would deploy it to a staging environment, test it, and "release" it to separate ops teams managing prod environments around the world. The upgrade would take around a week, and tied up nearly all of the team's time while it was being done.
+In September we were engaged by Pivotal to help one of their clients (a large financial organisation) try and deploy Cloud Foundry in a new way. This financial organisation has a lot of experience with Cloud Foundry and some very large deployments. However they were using a traditional, release-oriented approach when it came to deploying and maintaining Cloud Foundry. When a new PCF release came out the team would deploy it to a staging environment, test it, and "release" it to separate ops teams managing prod environments around the world. The upgrade would take around a week, and tied up nearly all of the team's time while it was being done.
 
 PCF gets updated often. From mid-October to mid-November there averaged an update every 4 days. This caused a lot of headaches for the team as updates would get backed-up — new versions were coming out faster than the team could deploy, test, and release them leaving prod environments exposed to CVEs for weeks (when this should be measured in hours); a lot of the same manual work was repeated for every upgrade; And they were left with no time to test and deploy new features that development teams were asking them for.
 
-Cloud Foundry allows app developers to deploy and scale apps seamlessly, so what if we could deploy Cloud Foundry just as easily? What if we could destroy and recreate any number of identically-configured Cloud Foundries at will? What if we had a pipeline that automatically upgraded and tested new versions? Thanks to Pivotal and some forward-thinking supporters within the bank, we got the opportunity to do just that.
+Cloud Foundry allows app developers to deploy and scale apps seamlessly, so what if we could deploy Cloud Foundry just as easily? What if we could destroy and recreate any number of identically-configured Cloud Foundries at will? What if we had a pipeline that automatically upgraded and tested new versions? Thanks to Pivotal and some forward-thinking supporters within the financial organisation, we got the opportunity to do just that.
 
 ## Continuously Deploying Cloud Foundry
 
