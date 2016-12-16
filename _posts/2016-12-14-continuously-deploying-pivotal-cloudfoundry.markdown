@@ -106,5 +106,5 @@ Replacing manual tests with automated tests does take a while (especially for in
 
 ### Small cost of change
 
-Our Cloud Foundries are now very much [cattle](http://www.theregister.co.uk/2013/03/18/servers_pets_or_cattle_cern/), not the pets they once were. This means we can easily destroy and replicate them — we can spin up new instances to spike potential features, and we can destroy dev environments at the end of the day to reduce costs. And when upgrades fail, it's much easier to diagnose and fix, because we're not paranoid about breaking things (they can always be reproduced).
+Our Cloud Foundry instances are now very much [cattle](http://www.theregister.co.uk/2013/03/18/servers_pets_or_cattle_cern/), not the pets they once were. This means we can easily destroy and replicate them — we can spin up new instances to spike potential features, and we can destroy dev environments at the end of the day to reduce costs. And when upgrades fail, it's much easier to diagnose and fix, because we're not paranoid about breaking things (they can always be reproduced).
 
