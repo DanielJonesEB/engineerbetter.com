@@ -7,17 +7,7 @@ comments: true
 
 <img src="/images/blog/continuous-delivery-ice-cream-factory.jpg" class="image fit">
 
-## What is Cloud Foundry?
-
-Cloud Foundry is a platform-as-a-service (PaaS) that helps manage the messy parts of running a web application: networks, servers, security, logging, scaling, healing etc. For developers it's great because you can spend less time on ops, and more time writing code that directly adds value to your business.
-
-As a CIO, Cloud Foundry is great because it can be deployed on top of a number of IaaSs including AWS, vSphere, Azure and Google Cloud. By providing this abstraction layer, it makes it much easier to migrate applications between IaaSs and avoid vendor lock-in. Furthermore Cloud Foundry apps need to be written as [12-factor apps](https://12factor.net/), which promotes ease of maintenance.
-
-It comes in two versions: open source, and a proprietary version that adds some extra closed-source features. At Engineer Better we've spent the last three months helping a large financial organisation deploy the closed-source version, *Pivotal Cloud Foundry* (PCF).
-
-Cloud Foundry is **large**. A single high-availability deployment across three AWS availability zones can require more than 50 VMs. These manage logging, routing, ensuring processes are scaled and striped correctly, and all sorts of other stuff you would never want to have to manage yourself.
-
-Cloud Foundry is also **complex** to deploy. If you're deploying PCF, you'll typically deploy [Pivotal Operations Manager](https://network.pivotal.io/products/ops-manager) (Ops Manager), which deploys a [BOSH Director](https://bosh.io/docs/bosh-components.html), which deploys and manages the VMs and applications needed to run Cloud Foundry. Not only are deployments slow (BOSH creates/updates each VM in serial to ensure high availability), but you need to prepare you IaaS first and there are dozens of form fields to fill out in Ops Manager before you can click "install" (or hundreds in your manifest if you're using the open-source version and deploying with Bosh directly).
+EngineerBetter recently helped a large financial organisation **fully automate** their Pivotal Cloud Foundry deployments, replacing a manual process that took a whole team more than a week with an **hands-off** continuous pipeline that **took hours**. We didn't just automate the deployment of their PCF: we **automated** the creation of their **cloud infrastructure**; deployment of **upgrades**; installation of **security updates**; and all with **full testing**.
 
 <!--more-->
 
