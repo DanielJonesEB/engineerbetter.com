@@ -17,7 +17,7 @@ Cloud Foundry enables continuous delivery for developers. **EngineerBetter bring
 
 The customer has a lot of experience with Cloud Foundry and some very large deployments. However they were using a traditional, release-oriented approach when it came to deploying and maintaining Cloud Foundry. When a new PCF release came out the team would deploy it to a staging environment, test it, and "release" it to separate ops teams managing prod environments around the world. The upgrade would take around a week, and tied up nearly all of the team's time while it was being done.
 
-PCF gets updated often. From mid-October to mid-November there averaged an update every 4 days. This caused a lot of headaches for the team as updates would get backed-up — new versions were coming out faster than the team could deploy, test, and release them leaving prod environments exposed to CVEs for weeks (when this should be measured in hours); a lot of the same manual work was repeated for every upgrade; And they were left with no time to test and deploy new features that development teams were asking them for.
+PCF gets updated often. From mid-October to mid-November there averaged an **update every 4 days**. This caused a lot of headaches for the team as updates would get backed-up — **new versions were coming out faster than the team could deploy, test, and release them** leaving prod environments exposed to CVEs for weeks (when this should be measured in hours); a lot of the same manual work was repeated for every upgrade; And they were left with no time to test and deploy new features that development teams were asking them for.
 
 Cloud Foundry allows app developers to deploy and scale apps seamlessly, so what if we could deploy Cloud Foundry just as easily? What if we could destroy and recreate any number of identically-configured Cloud Foundries at will? What if we had a pipeline that automatically upgraded and tested new versions? Thanks to Pivotal and some forward-thinking supporters within the financial organisation, we got the opportunity to do just that.
 
@@ -32,7 +32,7 @@ If you're deploying Pivotal Cloud Foundry from scratch you'll need to do the fol
 - [Upload ERT to the Ops Manager](https://docs.pivotal.io/pivotalcf/1-8/customizing/add-delete.html)
 - [Configure and deploy ERT via the Ops Manager](https://docs.pivotal.io/pivotalcf/1-8/customizing/cloudform-er-config.html)
 
-If you make no mistakes, this takes a couple of hours to half a day to complete. Once it's all done, you'll at least want to run the Cloud Foundry  [smoke tests](https://github.com/cloudfoundry/cf-smoke-tests), and possibly more intensive testing depending on your use-case.
+If you make no mistakes, this takes a couple of hours to half a day to complete. Once it's all done, you'll at least want to run the Cloud Foundry [smoke tests](https://github.com/cloudfoundry/cf-smoke-tests), and possibly more intensive testing depending on your use-case.
 
 Fortunately all these steps can be automated. Unfortunately, some are easier than others. To help with the automation we chose [Concourse](https://concourse.ci) as our CI server. Concourse has three features that make it a great CI server:
 
@@ -93,7 +93,7 @@ Since *installation_settings* is the configuration for *all* products that Ops M
 
 ## Results
 
-Our code is not pretty. We've used some hacky methods to glue together tools that weren't really designed to work together. However what we do have is a pipeline that continuously deploys Cloud Foundry to multiple foundations on multiple IaaSs. Something that would take days manually following a run-book, now happens overnight while the team is sleeping. CVE exposure time can be measured in hours not weeks. And the ugly code we do have are small scripts that can be taken out back individually and euthanised as and when better methods become available (like when we upgrade to 1.8).
+Our code is not pretty. We've used some hacky methods to glue together tools that weren't really designed to work together. However what we do have is a pipeline that continuously deploys Cloud Foundry to multiple foundations on multiple IaaSs. Something that would take days manually following a run-book, now **happens overnight while the team is sleeping**. CVE exposure time can be measured in hours not weeks. And the ugly code we do have are small scripts that can be taken out back individually and euthanised as and when better methods become available (like when we upgrade to 1.8).
 
 
 ### Testing
