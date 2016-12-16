@@ -21,7 +21,7 @@ Cloud Foundry allows app developers to deploy and scale apps seamlessly, so what
 
 ## Continuously Deploying Cloud Foundry
 
-If you're deploying Cloud Foundry from scratch you'll need to do the following six steps:
+If you're deploying Pivotal Cloud Foundry from scratch you'll need to do the following six steps:
 
 - Download the latest version of PCF - you'll need [Pivotal Elastic Runtime (ERT)](https://network.pivotal.io/products/elastic-runtime/) and [Ops Manager](https://network.pivotal.io/products/ops-manager)
 - [Set up your IaaS](https://docs.pivotal.io/pivotalcf/1-8/installing/) (VPCs, S3 buckets etc if you're on AWS; clusters, resource pools, and datastores on vSphere) and [Deploy an Ops Manager VM](https://docs.pivotal.io/pivotalcf/1-8/customizing/cloudform-om-deploy.html)
