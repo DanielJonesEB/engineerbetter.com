@@ -44,7 +44,7 @@ Using Concourse we set about creating our six-step pipeline:
 
 ### 1) Getting new versions of PCF
 
-Concourse has a simple plugin system that let's anyone define new "resources". A resource can be anything that has new versions, like a git repo or a build artifact. One open-source resource is the [pivnet-resource](https://ci.concourse.ci/teams/main/pipelines/main?groups=develop). This downloads new versions of PCF components from network.pivotal.io, and lets you trigger new builds
+Concourse has a simple extension system that let's anyone define new "resources". A resource can be anything that has new versions, like a git repo or a build artifact. One open-source resource is the [pivnet-resource](https://ci.concourse.ci/teams/main/pipelines/main?groups=develop). This downloads new versions of PCF components from network.pivotal.io, and lets you trigger new builds.
 
 ### 2) Preparing the IaaS and Deploying an Ops Manager VM
 
