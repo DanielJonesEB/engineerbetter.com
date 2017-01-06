@@ -132,11 +132,6 @@ resources:
   source:
     uri: https://github.com/engineerbetter/engineerbetter.com.git
 
-- name: engineerbetter-ci
-  type: git
-  source:
-    uri: https://github.com/engineerbetter/engineerbetter-ci.git
-
 - name: engineerbetter-built
   type: s3
   source:
