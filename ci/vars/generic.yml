@@ -1,0 +1,10 @@
+---
+concourse-job-notifications-slack-channel: integrations
+cf-staging-api: https://api.run.pivotal.io
+cf-staging-username: systems@engineerbetter.com
+cf-staging-organization: engineerbetter
+cf-staging-space: staging
+cf-prod-api: https://api.run.pivotal.io
+cf-prod-username: systems@engineerbetter.com
+cf-prod-organization: engineerbetter
+cf-prod-space: production
