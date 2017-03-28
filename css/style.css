@@ -455,6 +455,7 @@ section.blog em {
 
 	ul.buttons {
 		cursor: default;
+		padding-left: 0em;
 	}
 
 		ul.buttons:last-child {
