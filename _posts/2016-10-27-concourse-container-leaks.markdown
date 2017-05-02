@@ -52,7 +52,7 @@ We used `gaol list` to have a look at the containers this Garden instance was ru
 <section class="wrapper style2 special boxout">
   **Lesson 4:**
 
-  Concourse container UUIDs are Garden conatiner UUIDs.
+  Concourse container UUIDs are Garden container UUIDs.
 </section>
 
 `gaol properties` revealed that our containers had a `grace-time` of `300000000000`. The only snafu is that there are no _units_ specified, so we had to trawl through the Garden and Concourse code to try and find out what the default unit of measurement was. Sadly it was quicker to work out that 5 minutes is equal to 300,000,000,000 nanoseconds than it was to find any conclusive proof, so we made the assumption that Concourse was setting the grace time of Garden containers in line with its advertised TTL.
