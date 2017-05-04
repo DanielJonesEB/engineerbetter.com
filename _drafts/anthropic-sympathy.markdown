@@ -7,9 +7,14 @@ comments: true
 
 The way **most enterprises** operate is **wasting both the time and money** that they are made from. By learning from cognitive psychology and neuroscience we can find better, more productive ways of working.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QWMUYl0BkEI" frameborder="0" allowfullscreen class="image fit"></iframe>
-
 The commonly-accepted working practices of today are born of the industrial revolution and the post-war era of mass production. It's no surprise that these methods are best suited to <em>paperwork factories</em> and not the creative endeavour of solving business problems with software.
+
+<figure>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/QWMUYl0BkEI" frameborder="0" allowfullscreen class="image fit"></iframe>
+  <figcaption style="font-size: .8em">Anthropic Sympathy delivered as a keynote at Cloud Foundry Summit Europe 2016</figcaption>
+</figure>
+
+
 
 <!--more-->
 
@@ -17,7 +22,10 @@ The commonly-accepted working practices of today are born of the industrial revo
 
 Many enterprises' technology activities are structured into silos - functional teams, each with a particular speciality. These teams typically don't sit together, and often communicate via the dreaded _service ticket_ system.
 
-<img src="/images/blog/as/as.004.jpeg" class="fit image">
+<figure>
+  <img src="/images/blog/as/as.004.jpeg" class="fit image">
+  <figcaption style="font-size: .8em">Silo'd functional teams on the critical path to business value</figcaption>
+</figure>
 
 Very often members of one team don't feel like the people in other teams really care about their frustrations and problems. Why is this? They're all part of the same company, so they should be working together... Right?
 
@@ -41,7 +49,10 @@ Cast your mind back to our enterprise operating in silos. **Organisations dividi
 
 Thankfully we can do something about this. Instead of working in functional teams, we can instead work in cross-functional product teams that have all the skills we need to deliver value. This is much easier to achieve if you have a Platform-as-a-Service to reduce the breadth and depth of skills needed to push apps into production.
 
-<img src="/images/blog/as/as.017.jpeg" class="fit image">
+<figure>
+  <img src="/images/blog/as/as.017.jpeg" class="fit image">
+  <figcaption style="font-size: .8em">Skills required to deploy apps on a PaaS are highlighted in blue</figcaption>
+</figure>
 
 Compare the skills that are on the critical path of a feature delivering business value in an old, manually-deploying organisation, and one with a self-service platform. The **problem space is smaller**, allowing us to concentrate resources into a cross-functional product team.
 
@@ -57,7 +68,10 @@ Anyone who has worked in a virtual team, especially one which communicates by em
 
 In all three cases, **social capital correlated positively with productivity**. In two out of three consultancies, the human capital - the **education and experience of staff - did _not_ correlate with productivity** at all.
 
-<img src="/images/blog/as/as.028.jpeg" class="fit image">
+<figure>
+  <img src="/images/blog/as/as.028.jpeg" class="fit image">
+  <figcaption style="font-size: .8em">A network's value is determined by the number of nodes and connections</figcaption>
+</figure>
 
 This all makes perfect sense if you compare an organisation to an economic network. An economic network's value is determined by the number of nodes it has, and the number of connections between those nodes. A transport network with only two depots is not as valuable as one with two hundred. A transport network where you can't get from one depot to certain others isn't as useful as one where every destination is reachable from every other.
 
@@ -69,7 +83,10 @@ Now consider our network to be a communications network. We can make a communica
 
 It turns out that humans appear to possess some pretty sophisticated mechanisms for adding redundancy to communications, and for ensuring that messages are understood as the originator intended.
 
-<img src="/images/blog/as/as.029.jpeg" class="fit image">
+<figure>
+  <img src="/images/blog/as/as.029.jpeg" class="fit image">
+  <figcaption style="font-size: .8em">Did your eyebrows raise when looking at this picture?</figcaption>
+</figure>
 
 Picture the scene: you're walking through a busy train station, and ahead of you two friends are bidding each other farewell with a firm handshake and shared laughter. One of them turns towards you, still laughing, and makes eye contact. Before you know it, you realise you've inexplicably smiled at the person, despite not being in on their joke. This happened to me on the morning I wrote this paragraph.
 
@@ -139,7 +156,10 @@ Let's think back to our Gantt chart. It's a wonder that load testing ever succee
 
 Self-service access to resources on demand changes the economics of our team. Our **transaction costs have shrunk by several orders of magnitude** (getting hold of a database takes **seconds instead of weeks**), which makes it **economical to work on individual features** rather than aspects.
 
-<img src="/images/blog/as/as.047.jpeg" class="fit image">
+<figure>
+  <img src="/images/blog/as/as.047.jpeg" class="fit image">
+  <figcaption style="font-size: .8em">Use of a platform causes most of the tasks to disappear altogether</figcaption>
+</figure>
 
 Working on individual features means that **everything that is important to that feature is important <em>now</em>** - not in three months' time.
 
@@ -159,7 +179,10 @@ A [representative study](http://www2.warwick.ac.uk/fac/soc/economics/staff/amani
 
 Respondents were categorised by their income into two groups: rich and poor. Half of each group was asked a slightly different version of the question: either they had to cover a $300 (three hundred dollar) repair bill, or a $3,000 (three _thousand_ dollar) repair bill.
 
-<img src="/images/blog/as/as.054.jpeg" class="fit image">
+<figure>
+  <img src="/images/blog/as/as.054.jpeg" class="fit image">
+  <figcaption style="font-size: .8em">An example of Raven's Progressive Matrices, in which the objective is to identify the next pattern</figcaption>
+</figure>
 
 After answering the quandry on financing the car repairs, the respondents were given a fluid intelligence test. The test in question was an example of Raven's Progressive Matrices, which is often used to measure IQ.
 
@@ -229,7 +252,10 @@ For a long time people supposed that this discrepancy was down to the parole boa
 
 It turns out that there may be more to it than this.
 
-<img src="/images/blog/as/as.066.jpeg" class="fit image">
+<figure>
+  <img src="/images/blog/as/as.066.jpeg" class="fit image">
+  <figcaption style="font-size: .8em">An illustration of a test that provokes <a href="https://en.wikipedia.org/wiki/Stroop_effect">the Stroop effect</a></figcaption>
+</figure>
 
 A [more-recent study](http://pss.sagepub.com/content/early/2012/10/19/0956797612450034.extract) asked subjects to perform an exhaustive Stroop test, wherein a person observes the names of colours printed in a different colour, and has to name the written word rather than the colour it's printed in. This exercises self-control, as the subject has to inhibit more immediate responses.
 
