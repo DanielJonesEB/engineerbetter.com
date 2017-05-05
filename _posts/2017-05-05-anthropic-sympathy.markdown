@@ -306,7 +306,7 @@ Someone had to exchange heartbeats for money. They gave up some of their time on
 
 It's easy to trivialise the absurdity of enterprise processes, and to grow numb to the tedium of waiting two weeks for a change request to be satisfied. But at a fundamental level, what we do is important.
 
-Regardless of whether you're wasting an business' money or its employees' time, you're wasting people's lives.
+Regardless of whether you're wasting a business' money or its employees' time, you're wasting people's lives.
 
 I for one can't contribute to this, and nor can I idly sit by the sidelines pretending it's someone else's problem.
 
