@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Anthropic Sympathy
+title:  The Anthropic Sympathy of Platforms
 author: deejay
 comments: true
 ---
@@ -14,9 +14,18 @@ The commonly-accepted working practices of today are born of the industrial revo
   <figcaption style="font-size: .8em">Anthropic Sympathy delivered as a keynote at Cloud Foundry Summit Europe 2016</figcaption>
 </figure>
 
-
-
 <!--more-->
+
+_**Warning: this post is 4,000 words long**, and is a loose transcription of my keynote. If you've watched the video, then you won't gain much more by reading this._
+
+# TL;DR
+
+* Platforms allow self-sufficient product teams, which are more empathic and more productive
+* Self-service platforms allow us to move to small-batch feature-based workflows, exploiting the present bias
+* Deadlines make people less smart, less disciplined, and more forgetful
+* Continuously delivering the most important thing in the simplest way reduces technical debt and increases motivation
+
+Right, that's the provocative bold statements out of the way. Let's start this proper.
 
 # Silos Breed Apathy
 
