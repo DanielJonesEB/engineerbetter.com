@@ -18,7 +18,7 @@ The commonly-accepted working practices of today are born of the industrial revo
 
 _**Warning: this post is 4,000 words long**, and is a loose transcription of my keynote. If you've watched the video, then you won't gain much more by reading this._
 
-# TL;DR
+# TL;DR Summary
 
 * Platforms allow self-sufficient product teams, which are more empathic and more productive
 * Self-service platforms allow us to move to small-batch feature-based workflows, exploiting the present bias
