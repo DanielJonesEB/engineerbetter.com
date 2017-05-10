@@ -39,7 +39,7 @@ Cloud-native architecture is also closely linked with the concept of product tea
 
 ## Organisational Change
 
-The inner three rings of our model are usually as far as most grass roots transformation efforts reach before hitting the buffers. By this point the enterprise immune system, faced with completely incompatible working process, based on an alternative world view, has kicked in.
+The inner three rings of our model are usually as far as most grass roots transformation efforts reach before hitting the buffers. By this point the enterprise immune system, faced with completely incompatible working process based on an alternative world view, has kicked in.
 
 Even in cases where senior executive sponsorship is in place, a large amount of friction is usually observed in the middle management tier of the enterprise. These poor folks - unhelpfully called the "frozen middle" - find themselves caught between a program of change and the expectations that others still have of them. They have agile practices being forced on them from one direction while simultaneously being held captive by the mesh of *commitment* which still exists, from the implicit command and control structure. It's no surprise that they appear to be resistant.
 
