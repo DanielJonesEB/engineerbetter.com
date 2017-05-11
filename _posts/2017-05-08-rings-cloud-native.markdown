@@ -21,7 +21,7 @@ In addition to sensemaking this model actually helps us do the work, by encourag
 
 It's important to remember that each enterprise is a complex adaptive system; in reality nobody finds such neat boundaries in their contexts, especially at the outer ring. Rather than implying we should silo our thinking, the purpose of the model is to shine a light on common patterns and anti-patterns so we can surface and anticipate issues and cross-cutting concerns.
 
-In the absence of this kind of awareness enterprise silos will tend to optimise locally, addressing a single area in isolation. Often a particular team or business unit will engage with us to solve a particular problem and quickly find that the outcomes they imagined are actually limited by other areas outside their direct control. The lesson here is that achieving meaningful and sustaining change requires an understanding of the entire system that is flowing value to customers.
+In the absence of this kind of awareness enterprise silos will tend to optimise locally, addressing a single area in isolation. Often a particular team or business unit will engage with us to solve a particular problem and quickly find that the outcomes they imagined are actually limited by other areas outside their direct control. The lesson here is that achieving meaningful change requires an understanding of the entire system that is flowing value to customers.
 
 ## Self-Service Platforms
 
@@ -53,6 +53,6 @@ As the table above shows, a change of language can be a transformative step. It 
 
 It's natural to feel resistant. For those of us with a traditional enterprise management background, being able to answer the question "What business outcome do we want?" and expressing this intent without dictating specific deliverables is not something that comes naturally to us. We've never been asked to do this before. Likewise for the idea of [framing our decisions as experiments](https://barryoreilly.com/2013/10/21/how-to-implement-hypothesis-driven-development/), allowing us to reduce uncertainty by placing small bets to buy information, so we can make our next decision.
 
-No matter how unfamiliar new mindset seems, it can be learnt just like any other skill. New habits can be formed. Leaders can learn to take a hypothesis-driven approach instead of forcing certainty onto uncertain situations. Furthermore, we can all learn to create safer, happier working environments where it is [ok to be wrong](https://lizkeogh.com/2017/03/05/yes-and/).
+No matter how unfamiliar this new mindset seems, it can be learnt just like any other skill. New habits can be formed through practice. Leaders can learn to take a hypothesis-driven approach instead of forcing certainty onto uncertain situations. Furthermore, we can all learn to create safer, happier working environments where it is [ok to be wrong](https://lizkeogh.com/2017/03/05/yes-and/).
 
 At EngineerBetter we believe that our approach of enablement through delivery and *continuous improvement* is an appropriate way for anyone in an organisation to build better habits, not just development teams. Our purpose is making software development more humane, more effective and less wasteful; pursuit of this goal depends on us working with everyone, across all 4 of our identified problem spaces. Get in touch if you'd like to find out more.
