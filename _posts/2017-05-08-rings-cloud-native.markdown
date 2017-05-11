@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  The Concentric Rings of the Cloud Native Enterprise
+title:  The Concentric Rings of the Cloud-Native Enterprise
 author: dan
 comments: true
 ---
-<img src="/images/blog/eb-concentric-rings.jpeg" class="image fit">
+<img src="/images/blog/eb-concentric-rings.jpg" class="image fit">
 
 At EngineerBetter we generally categorise cloud-native transformation challenges into four problem spaces:
 
-- Self-service Platforms
+- Self-Service Platforms
 - Continuous Delivery
 - Application Architecture
 - Organisational Change
@@ -23,17 +23,17 @@ It's important to remember that each enterprise is a complex adaptive system; in
 
 In the absence of this kind of awareness enterprise silos will tend to optimise locally, addressing a single area in isolation. Often a particular team or business unit will engage with us to solve a particular problem and quickly find that the outcomes they imagined are actually limited by other areas outside their direct control. The lesson here is that achieving meaningful and sustaining change requires an understanding of the entire system that is flowing value to customers.
 
-## Self-service Platforms
+## Self-Service Platforms
 
-We deliver services in the platform space, so for us this is the most common observation point and the reason it forms the centre of our model. We founded EngineerBetter with the intention of using this point as a beach head from which to drive change in enterprises. A self-service developer platform like Cloud Foundry can affect dramatic change by [reducing the technical problem space](/2017/05/05/anthropic-sympathy.html). It also immediately begins to reveal what we refer to as the 'rakes on lawn'; these are the bureaucratic, regulatory or cultural obstacles that hit you in the face as you pursue the business outcome you want from using the platform. For example, if your desired outcome is lower lead time to deployment, you must optimise the entire delivery value stream. Simply standing up your platform is just one part of this.
+We anchored EngineerBetter's initial value proposition in the platform space, so for us this is the most common observation point and the reason it forms the centre of our model. We founded the company with the intention of using this point as a beach head from which to change improve the lives of people building software. A self-service developer platform like Cloud Foundry can affect dramatic change by [reducing the technical problem space](/2017/05/05/anthropic-sympathy.html). It also immediately begins to reveal what we refer to as the "rakes on the lawn"; these are the bureaucratic, regulatory or cultural obstacles that hit you in the face as you pursue the business outcome you want from using the platform. For example, if your desired outcome is lower lead time to deployment, you must optimise the entire delivery value stream. Simply standing up your platform is just one part of this.
 
 ## Continuous Delivery
 
-A self-service platform won't achieve business outcomes unless it provides a path to production. For this reason, continuous delivery pipelines become the next logical problem to tackle. A fundamental objective of continuous delivery is to make it [economic to work in small-batch sizes](https://www.amazon.co.uk/d/Books/Continuous-Delivery-Deployment-Automation-Addison-Wesley/0321601912). Once you can work in small batches, with good test coverage, you are in a position to start re-factoring, because you have [an isolation of cause and effect](https://twitter.com/AgileSteveSmith/status/734811899389485058). You need to create this feedback loop, so you can learn as you iterate on your apps.
+A self-service platform won't achieve business outcomes unless it provides a path to production. For this reason, continuous delivery pipelines become the next logical problem to tackle. A fundamental objective of continuous delivery is to make it [economic to work in small-batch sizes](https://www.amazon.co.uk/d/Books/Continuous-Delivery-Deployment-Automation-Addison-Wesley/0321601912). Once you can work in small batches, with good test coverage, you are in a position to start refactoring, because you have [an isolation of cause and effect](https://twitter.com/AgileSteveSmith/status/734811899389485058). You need to create this feedback loop, so you can learn as you iterate on your apps.
 
 ## Application Architecture
 
-Being in a position where we can make small changes safely and cheaply, we can address the question of how to architect our applications appropriately for a cloud environment. This requires Enterprise developers and architects to immerse themselves in the topics of [12 Factor](https://12factor.net/) applications and [microservices](https://martinfowler.com/articles/microservices.html). Beyond learning a new set of good practices for building software, the working process we use at EngineerBetter changes the actual process of making architectural decisions. The right decision emerges through the process of developing the software, instead of being decided in advance - put simply, [architect becomes a verb, not a noun](https://www.infoq.com/articles/enterprise-architecture-cloud).
+Once we're in a position that allows us to make small changes safely and cheaply, we can address the question of how to architect or refactor our applications appropriately for a cloud environment. This requires Enterprise developers and architects to immerse themselves in the topics of [12 Factor](https://12factor.net/) applications and [microservices](https://martinfowler.com/articles/microservices.html). Beyond learning a new set of good practices for building software, the working process we use at EngineerBetter changes the actual process of making architectural decisions. The right decision emerges through the process of developing the software, instead of being decided in advance - put simply, [architect becomes a verb, not a noun](https://www.infoq.com/articles/enterprise-architecture-cloud).
 
 Cloud-native architecture is also closely linked with the concept of product teams, as opposed to project teams. With an understanding of [Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law), we design a team structure that mimics the software architecture we want. Arranging people into cross-functional, value-oriented teams also makes it easier to collocate, with greatly reduced transaction costs, since people can communicate in small batches. The team can act autonomously, to focus on an outcome instead of a specific activity in the value stream. This topic blends nicely into our outermost ring.
 
@@ -49,8 +49,10 @@ The following table shows just how profound this reconfiguration of executive le
 
 <img src="/images/blog/enterprise-agility-boardroom.png" class="image fit">
 
-Being able to answer the question "What business outcome do want?" and being able to express this intent without dictating specific deliverables is not something that comes naturally to us if we've worked in traditional enterprise management. We've never been asked to do it before. Likewise for the idea of [framing our decisions as experiments](https://barryoreilly.com/2013/10/21/how-to-implement-hypothesis-driven-development/), allowing us to reduce uncertainty by placing small bets to buy information, so we can make our next decision.
+As the table above shows, a change of language can be a transformative step. It can be hugely liberating for everyone involved, when an organisation is able to shift its internal dialogue away from obsession over cost and timescales, towards an understanding of [value and urgency](https://vimeo.com/101506552).
 
-No matter how unfamiliar this mindset seems, it can be learnt. New habits can be formed. Leaders can learn to take a hypothesis-driven approach instead of forcing certainty onto uncertain situations. Furthermore, we can all learn to create safer, happier working environments where it is [ok to be wrong](https://lizkeogh.com/2017/03/05/yes-and/).
+It's natural to feel resistant. For those of us with a traditional enterprise management background, being able to answer the question "What business outcome do we want?" and expressing this intent without dictating specific deliverables is not something that comes naturally to us. We've never been asked to do this before. Likewise for the idea of [framing our decisions as experiments](https://barryoreilly.com/2013/10/21/how-to-implement-hypothesis-driven-development/), allowing us to reduce uncertainty by placing small bets to buy information, so we can make our next decision.
+
+No matter how unfamiliar new mindset seems, it can be learnt just like any other skill. New habits can be formed. Leaders can learn to take a hypothesis-driven approach instead of forcing certainty onto uncertain situations. Furthermore, we can all learn to create safer, happier working environments where it is [ok to be wrong](https://lizkeogh.com/2017/03/05/yes-and/).
 
 At EngineerBetter we believe that our approach of enablement through delivery and *continuous improvement* is an appropriate way for anyone in an organisation to build better habits, not just development teams. Our purpose is making software development more humane, more effective and less wasteful; pursuit of this goal depends on us working with everyone, across all 4 of our identified problem spaces. Get in touch if you'd like to find out more.
