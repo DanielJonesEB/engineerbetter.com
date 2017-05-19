@@ -46,6 +46,8 @@ GEM
       pathutil (~> 0.9)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
+    jekyll-feed (0.9.2)
+      jekyll (~> 3.3)
     jekyll-redirect-from (0.10.0)
       jekyll (>= 2.0)
     jekyll-sass-converter (1.4.0)
@@ -110,6 +112,7 @@ DEPENDENCIES
   capybara-webkit
   html-proofer
   jekyll
+  jekyll-feed
   jekyll-redirect-from
   jekyll-seo-tag
   rspec

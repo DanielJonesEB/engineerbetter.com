@@ -20,5 +20,6 @@ kramdown:
 excerpt_separator: <!--more-->
 
 gems:
+- jekyll-feed
 - jekyll-seo-tag
 - jekyll-redirect-from
