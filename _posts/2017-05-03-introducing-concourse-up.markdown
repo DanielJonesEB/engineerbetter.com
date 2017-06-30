@@ -29,7 +29,7 @@ $ concourse-up deploy chimichanga
 
 <img alt="Concourse-Up Screenshot" src="http://i.imgur.com/gZPuUW5.png" class="image fit">
 
-Head off for lunch, and under 40 minutes later you will have a fully functioning Concourse. You'll have a BOSH director looking after Concourse VMs in a private network and repairing them if anything goes wrong; a load balancer with a self-signed or user-provided TLS certificate; sensible security groups, and a custom domain if you wish.
+Go fetch yourself a coffee, and about 12 minutes later you will have a fully functioning Concourse. You'll have a BOSH director looking after Concourse VMs in a private network and repairing them if anything goes wrong; a load balancer with a self-signed or user-provided TLS certificate; sensible security groups, and a custom domain if you wish.
 
 Concourse-Up also allows you to scale your worker nodes either horizontally or vertically; just run `concourse-up deploy` using the `--workers` and `--worker-size` options.
 
