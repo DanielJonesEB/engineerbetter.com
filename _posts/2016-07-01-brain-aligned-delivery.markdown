@@ -50,7 +50,7 @@ Planning is a large part of cooperation and achieving complex goals. In this sec
 
 I believe that estimating the duration of a task is at best a fruitless waste of resources, and at worst a dangerous and misleading practice that diverts focus away from the really important issues. I make the case that 'prediction addiction' is a result of operant conditioning, and duration estimation becomes a compulsive self-fulfilling positive feedback loop.
 
-It is my opinion that humans are compelled to interact with things that they can't quite predict, as demonstrated by video games and most gambling activities. 
+It is my opinion that humans are compelled to interact with things that they can't quite predict, as demonstrated by video games and most gambling activities.
 
 <section class="wrapper style2 special boxout">
   <p>B.F Skinner's research on operant conditionining and the effect of random rewards on rats can be found in The Behaviour of Organisms, although he produced many works on the topic.</p>
@@ -123,7 +123,7 @@ Blushing can be argued to be another biological mechanism that exists solely for
   <a class="button special" href="http://psycnet.apa.org/journals/emo/11/2/313/">Saved by the blush: Being trusted despite defecting</a>
 </section>
 
-Emotions and 'gut reactions' help to tip the balance of decision-making beyond the rational, and are therefore useful tools in the workplace. If you feel bad when making a decision, the chances are you are making a poor choice. 
+Emotions and 'gut reactions' help to tip the balance of decision-making beyond the rational, and are therefore useful tools in the workplace. If you feel bad when making a decision, the chances are you are making a poor choice.
 
 <section class="wrapper style2 special boxout">
   <p>Tammy Myers is unable to assimilate physiological state, making decision-making a distressing experience.</p>
@@ -137,7 +137,7 @@ Symdrome E is a term for a collection of symptoms that accompany genocide. It fe
   <a class="button special" href="http://www.thelancet.com/journals/lancet/article/PIIS0140-6736(97)09385-9/abstract">Syndrome E</a>
 </section>
 
-Emotions help us make decisions with sociable outcomes. Our physiological responses help ensure sociable outcomes from our interactions. Our neurological responses allow us to better understand the emotional state of others, making the first step to ensuring a sociable outcome. If we contrast all of this with 80s management philosophy of zero-sum games, winning and all costs, and treating business as war, it is no surprise that we have a status quo of sociopathic corporations pursuing profit at the cost of humanity.
+Emotions help us make decisions with sociable outcomes. Our physiological responses help ensure sociable outcomes from our interactions. Our neurological responses allow us to better understand the emotional state of others, making the first step to ensuring a sociable outcome. If we contrast all of this with 80s management philosophy of zero-sum games, winning at all costs, and treating business as war, it is no surprise that we have a status quo of sociopathic corporations pursuing profit at the cost of humanity.
 
 I highlight a study that correlated social connectedness more positively with productivity than did staff experience or education.
 
@@ -196,7 +196,7 @@ A study showed that people somewhat counter-intuitively prefer to work when ther
   <a class="button special" href="http://www.ncbi.nlm.nih.gov/pubmed/7815657">Medical Decision Making in Situations that Offer Multiple Alternatives</a>
 </section>
 
-Finally I make the point that business are made of the hard-earned money of shareholders, and the easily-spent heartbeats of the people working in them. 
+Finally I make the point that business are made of the hard-earned money of shareholders, and the easily-spent heartbeats of the people working in them.
 
 Whilst it's easy to be glib about wealth and privilege in what is arguably the most unequal society in history, it's worth bearing in mind that the money invested in businesses was earned by the exchange of heartbeats at some point, by someone.
 
