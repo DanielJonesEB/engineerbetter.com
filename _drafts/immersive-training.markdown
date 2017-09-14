@@ -5,7 +5,7 @@ categories: update
 author: deejay
 comments: true
 ---
-<img src="/images/blog/hyattregencypool.jpg" class="fit image">
+<img src="/images/blog/mobbing-window.jpg" class="fit image">
 
 EngineerBetter recently had the pleasure of delivering a novel training course that bridges the gap between the one-to-one mentoring of pair-programming, and the more scalable one-to-many knowledge transfer of an instructor-led training course. I really do mean “pleasure” - these students were some of the most motivated and determined customers we’ve ever worked with.
 
