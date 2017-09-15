@@ -12,9 +12,9 @@ EngineerBetter recently had the pleasure of delivering a novel training course t
 ## Challenge
 
 * Take 6 developers from a global manufacturer with some experience of assembly, C, C# and Visual Basic.
-* In **only five days** have them deliver **12 Factor** apps written in Java Spring Boot/JavaScript Node that ingest, store and visualise **IoT data**, and is under **version control**, **test-driven**, built using **BDD** stories, and **continuously deployed** to **Cloud Foundry**
+* In **only five days** have them deliver **12-Factor** apps written in Java Spring Boot/JavaScript Node that ingest, store and visualise **IoT data**, and is under **version control**, **test-driven**, built using **BDD** stories, and **continuously deployed** to **Cloud Foundry**
 * The above are all things the **developers had never done before**
-* Only have two engineers available to help
+* Achieve the above with only two folks from EngineerBetter
 
 Did our students achieve their goal? Of course! So how did we help them do it?
 
@@ -22,19 +22,29 @@ Did our students achieve their goal? Of course! So how did we help them do it?
 
 Before we take any credit, I need to point out that working with these folks was an _absolute pleasure_. They were bright, motivated, enthusiastic, and keen to learn.
 
+## Preparation
+
+The students decided what it was that they wanted to build. This meant that they would be working on something meaningful to them, in a domain that they were familiar with.
+
+Ahead of their arrival, we expressed their ideas as stories in a backlog, taking care to make sure that we struck a balance between delivering their desired app whilst still covering all the learning outcomes.
+
+<img src="/images/blog/mobbing-stories.png" class="image">
+
 ## Mobbing
 
 The key to transferring so much knowledge was our use of **mob programming**. Whilst the first day mostly consisted of orientation, covering the wide range of tools and techniques we’d be using, by the afternoon we split into two mobs: three students, and one EngineerBetter team leader. From then on, it was coding all-the-way.
 
 <img src="/images/blog/mobbing-in-room.jpg" class="fit image">
 
-Each team occupied their own room, with a single computer, mouse, keyboard, and one very large screen. One team member is appointed '**driver**', and the rest of the team act as '**navigators**'. The driver’s job is to do exactly as instructed by the navigators, who do the decision making. **Every ten minutes we rotate** the role of driver, meaning everyone gets lots of keyboard time.
+Each team occupied their own room, with a single computer, mouse, keyboard, and one very large screen.
+
+In the mobbing process, one team member is appointed '**driver**', and the rest of the team act as '**navigators**'. The driver’s job is to do exactly as instructed by the navigators, who do the decision making. **Every ten minutes we rotate** the role of driver, meaning everyone gets lots of keyboard time.
 
 That the driver can only follow instructions means that **every implemented idea must be vocalised**. In order to get some code written, someone has to say something, thus allowing the team to discuss it. The driver is of course allowed to have ideas, but they’re not allowed to put them into the code without getting a navigator to tell them to - again, forcing discussion. This process **makes all decisions transparent** and explicit, and **every member** of the team **is part of the thinking process**.
 
 <img src="/images/blog/mobbing-java.jpg" class="fit image">
 
-The team worked from an **ordered backlog** in Pivotal Tracker, which is exactly how we work and exactly how we recommend that product teams work. The backlog was populated with stories created ahead-of-time from the customer’s requirements, in the form “As a factory owner, I can see the data dashboard” with step-by-step acceptance criteria. The students were enthused about this aspect of our working practice - they were excited that clearly stating a thing that a user can or cannot do as a small batch of work would make for big improvements on their prior model of working from long, wide-ranging requirements documents.
+Each of our teams worked from an **ordered backlog** in Pivotal Tracker, which is exactly how we work and exactly how we recommend that product teams work. The backlog was populated with stories created ahead-of-time from the customer’s requirements, in the form “As a factory owner, I can see the data dashboard” with step-by-step acceptance criteria. The students were enthused about this aspect of our working practice - they were excited that clearly stating a thing that a user can or cannot do as a small batch of work would make for big improvements on their prior model of working from long, wide-ranging requirements documents.
 
 ## Benefits
 
@@ -45,6 +55,8 @@ Another benefit of delivering actual apps instead of traditional slide-based tra
 ## Results
 
 **Both teams created continuously-delivered apps** (a data service and a web UI) that ingested IoT data and displayed it in JavaScript charts. Admittedly the features were fairly bare-bones, and one team got further than the other. Regardless, it was a massive achievement of the students to get this far.
+
+They left with working apps deployed on Cloud Foundry, code in GitHub, and a CI pipeline running on Concourse. All of these could then be demonstrated upon the students' return to their workplace.
 
 Did our students come away as fluent, self-sufficient cloud native developers? Absolutely not, and that was never the intention. We inundated them with information, which they were excited to take back to their workplace. If they remembered as much of 20% of what they experienced, then they’ll have done very well - but recall isn’t the point of this type of training.
 
