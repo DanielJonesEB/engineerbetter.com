@@ -11,7 +11,7 @@ EngineerBetter recently had the pleasure of delivering a novel training course t
 
 ## Challenge
 
-* Take 6 developers from a global manufacturer with some experience of assembly, C, C# and Visual Basic.
+* Take 6 factory engineers from a global manufacturer with some experience of assembly, C, C# and Visual Basic.
 * In **only five days** have them deliver **12-Factor** apps written in Java Spring Boot/JavaScript Node that ingest, store and visualise **IoT data**, and is under **version control**, **test-driven**, built using **BDD** stories, and **continuously deployed** to **Cloud Foundry**
 * The above are all things the **developers had never done before**
 * Achieve the above with only two folks from EngineerBetter
