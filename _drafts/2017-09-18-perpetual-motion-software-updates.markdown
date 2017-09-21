@@ -35,6 +35,8 @@ But if you look at our 3 tasks above, you can see that if we exit early during t
 
 This ensures that any new self-update pipelines get set, and that the CI job can safely exit know BOSH is upgrading Concourse in the background.
 
+Finally, since we deploy our own [ci.engineerbetter.com](https://ci.engineerbetter.com) using concourse-up, we are not only continuously releasing new versions of `concourse-up` whenever there is a new component or stemcell on [bosh.io](https://bosh.io), but that same CI server is then continuously upgrading itself using the releases that it builds.
+
 ## Metrics
 
 <img src="/images/blog/ci-metrics.png" class="image fit" />
