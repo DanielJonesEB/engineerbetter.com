@@ -5,15 +5,13 @@ author: pete
 comments: true
 ---
 
-<figure>
-    <img src="/images/blog/perpetual-motion.jpg" class="image fit" />
-</figure>
+<img src="/images/blog/perpetual-motion.jpg" class="image fit" />
 
 We've got some great feedback from early Concourse-up users, but they wanted more. So recently we've been working on adding functionality to Concourse-up. Here's what we've been up to:
 
 ## Self-update
 
-TODO: picture of green self update pipeline
+<img src="/images/blog/self-update.png" class="image fit" />
 
 Concourse-up took deploying Concourse on AWS from a complex series of steps to a single console command. Well now we've reduced that to _zero_ commands. When Concourse-up deploys Concourse, it now adds a pipeline to the new Concourse called `concourse-up-self-update`. This pipeline continuously monitors our Github repo for new releases and updates Concourse in place whenever a new version of Concourse-up comes out.
 
