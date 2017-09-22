@@ -1,13 +1,17 @@
 ---
 layout: post
-title:  Bringing Perpetual Motion to Software Updates - Self-Upgrading Concourse CI
+title:  Bringing Perpetual Motion to System Upgrades - Self-Upgrading Concourse CI
 author: pete
 comments: true
 ---
 
 <img src="/images/blog/perpetual-motion.jpg" class="image fit" />
 
-We've got some great feedback from early Concourse-up users, but they wanted more. So recently we've been working on adding functionality to Concourse-up. Here's what we've been up to:
+We got some great feedback from early Concourse-up users and we've recently been working on adding functionality. One of most exciting features is self-upgrading Concourse!
+
+This is a lot of fun. Now [ci.engineerbetter.com](https://ci.engineerbetter.com) not only continuously releases new versions of `concourse-up` whenever there is a new component or stemcell on [bosh.io](https://bosh.io), but that same CI server then continuously upgrades itself using the `concourse-up` releases it has built.
+
+This approach embodies what we believe about enterprise software updates. They aren't a point in time activity - they should be transparent, continuous and utterly *boring*, like apps on your phone.
 
 ## Self-update
 
@@ -35,8 +39,6 @@ But if you look at our 3 tasks above, you can see that if we exit early during t
 
 This ensures that any new self-update pipelines get set, and that the CI job can safely exit know BOSH is upgrading Concourse in the background.
 
-Finally, since we deploy our own [ci.engineerbetter.com](https://ci.engineerbetter.com) using concourse-up, we are not only continuously releasing new versions of `concourse-up` whenever there is a new component or stemcell on [bosh.io](https://bosh.io), but that same CI server is then continuously upgrading itself using the releases that it builds.
-
 ## Metrics
 
 <img src="/images/blog/ci-metrics.png" class="image fit" />
@@ -50,7 +52,7 @@ Concourse-up now automatically deploys Influxdb, Riemann, and Grafana on the web
 
 ## Cheaper
 
-We realised we were being too generous with your money. By reducing instance sizes of the bosh director, Concourse web node, and RDS and by removing the unnecessary load balancer, we've saved you about $90/mo in AWS costs. Feel free to buy us a beer next time you see us.
+We realised we were being too generous with your money. By reducing instance sizes of the bosh director, Concourse web node, and RDS and by removing the unnecessary load balancer, we've saved you about $90/mo in AWS costs. 
 
 ## All Regions
 
