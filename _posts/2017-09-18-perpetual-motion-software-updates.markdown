@@ -78,4 +78,4 @@ Many enterprise users need to give Concourse access to their internal services. 
 
 Concourse has the option to encrypt its database, but it isn't enabled by default. Concourse-up now enables encryption of the Concourse DB. Run `concourse-up info --json <YOUR DEPLOYMENT NAME>` if you need to recover your DB encryption key.
 
-And that's the latest news on Concourse-up! If you have any feedback or suggestions please feel free to get in touch with us or create a [github issue](github.com/EngineerBetter/concourse-up).
+And that's the latest news on Concourse-up! If you have any feedback or suggestions please feel free to get in touch with us or create a [github issue](https://github.com/EngineerBetter/concourse-up).
