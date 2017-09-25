@@ -25,9 +25,9 @@ It hurts my head to think about how this actually works for more than five minut
 
 Internally, Concourse-up runs the following tasks idempotently when deploying:
 
-1. Build AWS infrastructure using Terraform
-1. Deploy a bosh director and Concourse deployment
-1. Set the self-update pipeline
+* Build AWS infrastructure using Terraform
+* Deploy a bosh director and Concourse deployment
+* Set the self-update pipeline
 
 Let's say we release an update that updates some code on the Concourse worker VM. This will result in BOSH taking down the worker node during step 2 in order to update the code running on it. Which would result in downtime for the Concourse. Now if this update was triggered by a self-update job running on the Concourse _itself_, we're going to run into trouble as BOSH will try and update the VM that is running the job that triggered BOSH to update the VM in the first place (this is where my head starts to hurt).
 
@@ -35,9 +35,9 @@ When you run a task in BOSH like a deployment, typically BOSH streams the output
 
 But if you look at our 3 tasks above, you can see that if we exit early during task 2, we'll never get to do task 3 — set the self-update pipeline. This means if we wanted to update our self-update pipeline (meta, I know) we wouldn't be able to. Therefore in self-update mode, Concourse-up changes the order and runs the tasks this way:
 
-1. Build AWS infrastructure using Terraform
-1. Set the self-update pipeline
-1. Deploy a bosh director and Concourse deployment (and exit early to let BOSH do it's thing)
+* Build AWS infrastructure using Terraform
+* Set the self-update pipeline
+* Deploy a bosh director and Concourse deployment (and exit early to let BOSH do it's thing)
 
 This ensures that any new self-update pipelines get set, and that the CI job can safely exit know BOSH is upgrading Concourse in the background.
 
@@ -60,9 +60,9 @@ One of our teams was having performance issues on their Concourse-Up deployment,
 
 We wanted to be able to vertically scale the database, just like the workers. If you need a bigger database, you can now change the size of your RDS instance using the `--db-size` flag.
 
-## Cheaper
+## Cost efficiency
 
-We realised we were being too generous with your money. By reducing instance sizes of the bosh director, Concourse web node, and RDS and by removing the unnecessary load balancer, we've saved you about $90/mo in AWS costs.
+We realised we were being too generous with infrastructure. By reducing instance sizes of the bosh director, Concourse web node, RDS and by removing the unnecessary ELB, we've saved about $90/mo in AWS costs on the default deployment.
 
 ## All Regions
 
