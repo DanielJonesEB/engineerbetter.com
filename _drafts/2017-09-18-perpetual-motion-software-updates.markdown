@@ -52,9 +52,15 @@ Concourse-up now automatically deploys Influxdb, Riemann, and Grafana on the web
 * Containers
 * Disk usage
 
+## Scale your RDS database
+
+One of our customer teams was having performance issues on their Concourse-Up deployment, once they reached a certain number of pipelines. Concourse-up used to use a non-configurable `t2.small` RDS instance. It turns out a [t2.small](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/t2-instances.html) can consume 20% CPU over time before it starts to lose CPU credits. If >20% CPU utilisation continues, it eventually loses all its accumulated credits, and starts to be throttled. This was happening on one of our customers, which slowed down everything that accesses the DB, including the UI and builds themselves.
+
+If you need a bigger database, you can change the size of your RDS instance using the `--db-size` flag.
+
 ## Cheaper
 
-We realised we were being too generous with your money. By reducing instance sizes of the bosh director, Concourse web node, and RDS and by removing the unnecessary load balancer, we've saved you about $90/mo in AWS costs. 
+We realised we were being too generous with your money. By reducing instance sizes of the bosh director, Concourse web node, and RDS and by removing the unnecessary load balancer, we've saved you about $90/mo in AWS costs.
 
 ## All Regions
 
