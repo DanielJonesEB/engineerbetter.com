@@ -7,17 +7,19 @@ comments: true
 
 <img src="/images/blog/perpetual-motion.jpg" class="image fit" />
 
-We got some great feedback from early Concourse-up users and we've recently been working on adding functionality. One of most exciting features is self-upgrading Concourse!
-
-This is a lot of fun. Now [ci.engineerbetter.com](https://ci.engineerbetter.com) not only continuously releases new versions of `concourse-up` whenever there is a new component or stemcell on [bosh.io](https://bosh.io), but that same CI server then continuously upgrades itself using the `concourse-up` releases it has built.
-
-This approach embodies what we believe about enterprise software updates. They aren't a point in time activity - they should be transparent, continuous and utterly *boring*, like apps on your phone.
+We've recently been working on adding functionality, based on feedback from users in the community and our own teams who've been using Concourse-up in production, with customers. Being able to deploy a Concourse cluster using a single command was great, but not ideal; you still had to run it again to upgrade. What if you could just run a single command, and then _never have to think about it again_?
 
 ## Self-update
 
 <img src="/images/blog/self-update.png" class="image fit" />
 
-Concourse-up took deploying Concourse on AWS from a complex series of steps to a single console command. Well now we've reduced that to _zero_ commands. When Concourse-up deploys Concourse, it now adds a pipeline to the new Concourse called `concourse-up-self-update`. This pipeline continuously monitors our Github repo for new releases and updates Concourse in place whenever a new version of Concourse-up comes out.
+This feature is a lot of fun. When Concourse-up deploys Concourse, it now adds a pipeline to the new Concourse called `concourse-up-self-update`. This pipeline continuously monitors our Github repo for new releases and updates Concourse in place whenever a new version of Concourse-up comes out.
+
+This means that our own [ci.engineerbetter.com](https://ci.engineerbetter.com) not only continuously builds, tests and releases new versions of `concourse-up` whenever it finds a new component or stemcell on [bosh.io](https://bosh.io), but that same CI server then continuously upgrades *itself* using the `concourse-up` releases it has built.
+
+This approach embodies what we believe about enterprise software updates. They aren't a point in time activity - they should be transparent, continuous and utterly *boring*, just like updates to apps on your phone.
+
+## How Self-update Works
 
 It hurts my head to think about how this actually works for more than five minutes at a time but I'll do my best to explain it here.
 
