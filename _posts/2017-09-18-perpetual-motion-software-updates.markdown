@@ -41,6 +41,8 @@ But if you look at our 3 tasks above, you can see that if we exit early during t
 
 This ensures that any new self-update pipelines get set, and that the CI job can safely exit know BOSH is upgrading Concourse in the background.
 
+In addition to self-update, we also added a whole bunch of other features:
+
 ## Metrics
 
 <img src="/images/blog/ci-metrics.png" class="image fit" />
@@ -54,9 +56,9 @@ Concourse-up now automatically deploys Influxdb, Riemann, and Grafana on the web
 
 ## Scale your RDS database
 
-One of our customer teams was having performance issues on their Concourse-Up deployment, once they reached a certain number of pipelines. Concourse-up used to use a non-configurable `t2.small` RDS instance. It turns out a [t2.small](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/t2-instances.html) can consume 20% CPU over time before it starts to lose CPU credits. If >20% CPU utilisation continues, it eventually loses all its accumulated credits, and starts to be throttled. This was happening on one of our customers, which slowed down everything that accesses the DB, including the UI and builds themselves.
+One of our teams was having performance issues on their Concourse-Up deployment, once they reached a certain number of pipelines. Concourse-up used to use a non-configurable `t2.small` RDS instance. It turns out a [t2.small](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/t2-instances.html) can consume 20% CPU over time before it starts to lose CPU credits. If >20% CPU utilisation continues, it eventually loses all its accumulated credits, and starts to be throttled. This was happening on one of our customers, which slowed down everything that accesses the DB, including the UI and builds themselves.
 
-If you need a bigger database, you can change the size of your RDS instance using the `--db-size` flag.
+We wanted to be able to vertically scale the database, just like the workers. If you need a bigger database, you can now change the size of your RDS instance using the `--db-size` flag.
 
 ## Cheaper
 
