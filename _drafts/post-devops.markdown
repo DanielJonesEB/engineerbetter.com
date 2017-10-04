@@ -5,16 +5,19 @@ categories: update
 author: deejay
 comments: true
 ---
-<img src="/images/blog/hyattregencypool.jpg" class="fit image">
+<img src="/images/blog/post-devops/post-devops.png" class="fit image">
 
-Post-DevOps describes a level of maturity whereby traditional further agility is achieved by providing a self-service, automatable platform which enables application product teams to perform all operational activities. Traditional DevOps is practiced by both application product teams and the platform product team, above and below the 'platform line' respectively.
+Post-DevOps describes a level of maturity that achieves agility beyond traditional DevOps by providing a self-service, automatable platform which enables application product teams to perform all operational activities. Traditional DevOps is still practiced by both application product teams and the platform product team, above and below the 'platform line' respectively.
+
+<!--more-->
 
 ## Benefits over traditional DevOps
 
-* All the things that are good about DevOps, without the undifferentiated heavy lifting
-* De-duplicated efforts - the platform is instantly reusable, as opposed to reinventing/sharing handcrafted deployment techniques
 * Easier hiring and training, as each group need know fewer technologies
-* Separation of concerns - each group has a smaller problem space to master, and fewer places to look when debugging
+* Fast iterations due to reduced coupling between apps and deployment
+* Quicker debugging due to smaller problem space
+* De-duplicated efforts - the platform is instantly reusable, as opposed to reinventing/sharing handcrafted deployment techniques
+* All the things that are good about DevOps, without the undifferentiated heavy lifting
 
 ## What is Post-DevOps?
 
@@ -46,11 +49,56 @@ For the sake of this discussion we'll take DevOps to mean "the practice of being
 
 In traditional DevOps application developers (either individually or as a team) gained responsibility for the operation of their apps: deployment, lifecycle management, issue diagnosis, and yes, out-of-hours support. This total ownership has a key business benefit: more reliable software due to having 'skin in the game' of operations. Additionally adopting DevOps becomes a forcing function for the immediacy of self-service, increasing the speed of delivery, the turnaround from live issue to resolution, and subsequently increasing the motivation and job satisfaction of engineers.
 
-The first time I realised that there was something wrong with the notion of DevOps was whilst watching the fearsomely smart [Bethan Williams](https://www.linkedin.com/in/bethan-williams-09b57b4/) giving a talk that suggested that a company should either adopt DevOps _or_ a Platform-as-a-Service, but not both at the same time.
+The first time I realised that there was something wrong with the notion of DevOps was whilst watching the fearsomely smart [Bethan Williams](https://www.linkedin.com/in/bethan-williams-09b57b4/) giving a talk citing a suggestion from Gartner that a company should either adopt DevOps _or_ a Platform-as-a-Service, but not both at the same time.
 
 Upon hearing that idea, I was a little dismayed. "Really?" I thought. "DevOps is clearly awesome. Are we really suggesting that we should just give people a platform, and go back to people chucking work over a fence?" It gave me pause for thought though.
 
 If DevOps was no more effective than app developers caring only about writing code, would it have gained popularity? Quite simply, no. Our IT practices are driven by market forces, and what is most effective (eventually) wins. So DevOps is not intrinsically better, even if its humane qualities make it feel that way. It gives better results.
 
-I think it's fair to say that in our ecosystem we've struggled with this dichotomy for a while. We know DevOps is good; we know platforms are good. It took the ever-insightful Colin Humphreys to nail the issue (many years _after_ starting a PaaS consultancy, may I add) with what I fondly refer to as "The Chumphreys Post-DevOps Quadrants:"
+I think it's fair to say that in our ecosystem we've struggled with this dichotomy for a while. We know DevOps is good; we know platforms are good. It took the ever-insightful Colin Humphreys to nail the issue (many years _after_ starting a PaaS consultancy, may I add) with what I fondly refer to as "The Chumphreys Post-DevOps Quadrants."
 
+## Pre-DevOps
+
+In the pre-DevOps world application developers did the development, and system admins did the operations.
+
+<img src="/images/blog/post-devops/pre-devops.png" class="fit image">
+
+## DevOps
+
+DevOps brought the unification of these two responsibilities into one team, performing both application development _and_ operations. This soon leads to cognitive overload within teams as they need to know an ever-larger tech stack, and becomes hard to scale. Often each team creates bespoke operational tools such as deployment scripts, and these become hard to share effectively.
+
+<img src="/images/blog/post-devops/devops.png" class="fit image">
+
+## A Platform with no DevOps
+
+Introducing a platform and eschewing DevOps, which as I wrote metioned earlier has been mooted by Gartner, leaves in a situation that isn't a lot better than the pre-DevOps world.
+
+We've got big gaps where no-one is taking responsibility for apps on day two, and the platform is likely not being developed into a more useful and power tool.
+
+<img src="/images/blog/post-devops/platform-no-devops.png" class="fit image">
+
+## Post-DevOps
+
+A platform introduces two new responsibilities: **app operations** and **platform development**:
+
+<img src="/images/blog/post-devops/post-devops.png" class="fit image">
+
+Firstly the platform needs to be developed, extended, and maintained. It isn't a matter of hoping that someone else's platform works out of the box for you, it's performing integration and customisation. Similarly it's not building your own platform from scratch; rather it's treating the platform as a product and listening to the needs of your users (the app developers).
+
+Secondly the platform must offer developers the ability to manage the full lifecycle of their apps, otherwise we're back in the bad old days pre-DevOps. App developers should be able to deploy, scale, restart, debug, monitor and get alerts from their apps, all via self-service.
+
+Each group is now practicing DevOps with more focus and intrinsically more re-usable code.
+
+## Why Post-DevOps matters
+
+Does your business specialise in the offering application deployment services? Probably not. Your business likely does something else, where software _embodies_ that something, and where functional, reliable, continuously-deployed software should be a given.
+
+If your business is handcrafting endless deployment scripts then you're diverting funds away from the reason your business really exists. If your business is currently employing ten DevOps Engineers to build their own platform on their favourite container scheduler, then it's wasting money reinventing the wheel.
+
+Your customers probably do not care _how_ the apps they use are deployed, only that they _are_ deployed with zero-downtime.
+
+You wouldn't write your own database (unless you're Oracle). You wouldn't write your own hypervisor (unless you're vmWare). Why would you write your own platform, be it a PaaS or an elaborate mesh of CI jobs and infrastructure orchestration tools?
+
+The current connotations of the term DevOps (especially the associated technologies) focus us on the wrong problems. The original intention of the principle predates the ready availability of pre-built platforms. The world has changed, and we should change with it.
+
+Post-DevOps gives us all the benefits of complete ownership, leveraging clear separation of concerns to allow engineers above and below the platform line to be more productive.
