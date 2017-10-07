@@ -73,7 +73,7 @@ DevOps brought the unification of these two responsibilities into **one team, pe
 
 Introducing a platform and eschewing DevOps, which as I metioned earlier has been mooted by Gartner, leaves us in a situation that isn't a lot better than the pre-DevOps world.
 
-We've got **big gaps where no-one is taking responsibility** for apps on day two, and the platform is likely not being developed into a more useful and power tool.
+We've got **big gaps where no-one is taking responsibility** for apps on day two, and the platform is likely not being developed into a more useful and powerful tool.
 
 All we've achieved here is letting Pre-DevOps folks deploy things faster, and allowed unreliable apps to self-heal.
 
