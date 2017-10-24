@@ -10,7 +10,7 @@ jobs:
     file: engineerbetter.com/ci/tasks/jekyll-build.yml
   - put: engineerbetter-built
     params:
-      file: jekyll-built/engineerbetter-jekyll-built.tar.gz
+      file: jekyll-built/engineerbetter-blog-built.tar.gz
     on_failure:
             put: slack-notify
             params:
@@ -76,6 +76,7 @@ resources:
   type: git
   source:
     uri: https://github.com/engineerbetter/engineerbetter.com.git
+    branch: blog-only
 
 - name: engineerbetter-built
   type: s3
