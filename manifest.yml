@@ -1,6 +1,6 @@
 ---
 applications:
-- name: engineerbetter-com
+- name: eb-blog
   disk: 128M
   memory: 64M
   instances: 1

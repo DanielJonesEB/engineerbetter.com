@@ -1,5 +1,5 @@
 ---
-concourse-job-notifications-slack-channel: integrations
+slack_channel: integrations
 cf-staging-api: https://api.run.pivotal.io
 cf-staging-username: systems@engineerbetter.com
 cf-staging-organization: engineerbetter

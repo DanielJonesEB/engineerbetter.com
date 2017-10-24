@@ -14,7 +14,7 @@ jobs:
     on_failure:
             put: slack-notify
             params:
-              text: "site-build job on Concourse failed! \n Check: https://ci.engineerbetter.com/pipelines/engineerbetter-com/jobs/site-build"
+              text: "site-build job on Concourse failed!"
               channel: {{slack_channel}}
               username: concourse
 
@@ -38,35 +38,7 @@ jobs:
     on_failure:
         put: slack-notify
         params:
-          text: "Deployment of www-staging.engineerbetter.com failed! \n Check: https://ci.engineerbetter.com/pipelines/engineerbetter-com/jobs/deploy-staging"
-          channel: {{slack_channel}}
-          username: concourse
-
-- name: staging-tests
-  public: false
-  serial: true
-  plan:
-  - aggregate:
-    - get: engineerbetter.com
-      passed: [deploy-staging]
-      trigger: true
-    - get: engineerbetter-built
-      passed: [deploy-staging]
-      trigger: true
-  - task: unpack-site
-    file: engineerbetter.com/ci/tasks/unpack-site.yml
-  - task: eb-staging-smoke-test
-    file: jekyll-built/ci/tasks/eb-staging-smoke-test.yml
-    on_success:
-        put: slack-notify
-        params:
-          text: "Acceptance tests for www-staging.engineerbetter.com passed! \n Check: https://ci.engineerbetter.com/pipelines/engineerbetter-com/jobs/staging-tests"
-          channel: {{slack_channel}}
-          username: concourse
-    on_failure:
-        put: slack-notify
-        params:
-          text: "Acceptance tests for www-staging.engineerbetter.com failed! \n Check: https://ci.engineerbetter.com/pipelines/engineerbetter-com/jobs/staging-tests"
+          text: "Deployment of staging blog failed!"
           channel: {{slack_channel}}
           username: concourse
 
@@ -76,9 +48,9 @@ jobs:
   plan:
   - aggregate:
     - get: engineerbetter.com
-      passed: [staging-tests]
+      passed: [deploy-staging]
     - get: engineerbetter-built
-      passed: [staging-tests]
+      passed: [deploy-staging]
   - task: unpack-site
     file: engineerbetter.com/ci/tasks/unpack-site.yml
   - put: cf-prod
@@ -88,36 +60,9 @@ jobs:
     on_failure:
       put: slack-notify
       params:
-        text: "Production deployment of engineerbetter.com failed! \n Check: https://ci.engineerbetter.com/pipelines/engineerbetter-com/jobs/deploy-prod"
+        text: "Production deployment of blog failed!"
         channel: {{slack_channel}}
         username: concourse
-
-- name: prod-tests
-  public: false
-  serial: true
-  plan:
-  - aggregate:
-    - get: engineerbetter.com
-      passed: [deploy-prod]
-    - get: engineerbetter-built
-      passed: [deploy-prod]
-      trigger: true
-  - task: unpack-site
-    file: engineerbetter.com/ci/tasks/unpack-site.yml
-  - task: eb-prod-acceptance-test
-    file: jekyll-built/ci/tasks/eb-prod-acceptance-test.yml
-    on_success:
-        put: slack-notify
-        params:
-          text: "Acceptance tests for www.engineerbetter.com passed! \n Check: https://ci.engineerbetter.com/pipelines/engineerbetter-com/jobs/prod-tests"
-          channel: {{slack_channel}}
-          username: concourse
-    on_failure:
-        put: slack-notify
-        params:
-          text: "Acceptance tests for www.engineerbetter.com failed! \n Check: https://ci.engineerbetter.com/pipelines/engineerbetter-com/jobs/prod-tests"
-          channel: {{slack_channel}}
-          username: concourse
 
 resource_types:
 - name: slack-notification
@@ -137,7 +82,7 @@ resources:
   source:
     bucket: engineerbetter-jekyll-builds
     region_name: eu-west-1
-    versioned_file: engineerbetter-jekyll-built.tar.gz
+    versioned_file: engineerbetter-blog-built.tar.gz
     access_key_id: {{concourse_ci_s3_access_key}}
     secret_access_key: {{concourse_ci_s3_secret_key}}
 
@@ -165,23 +110,3 @@ resources:
   type: slack-notification
   source:
     url: {{slack_webhook}}
-
-groups:
-- name: pipeline
-  jobs:
-  - site-build
-  - deploy-staging
-  - staging-tests
-  - deploy-prod
-  - prod-tests
-- name: build
-  jobs:
-  - site-build
-- name: deploy
-  jobs:
-  - deploy-staging
-  - deploy-prod
-- name: tests
-  jobs:
-  - staging-tests
-  - prod-tests
