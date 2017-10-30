@@ -6,5 +6,8 @@ applications:
   instances: 2
   path: _site/
   buildpack: https://github.com/cloudfoundry/staticfile-buildpack
+  routes:
+  - route: eb-blog-prod.cfapps.io
+  - route: www.engineerbetter.com/update
 
 language: staticfile
