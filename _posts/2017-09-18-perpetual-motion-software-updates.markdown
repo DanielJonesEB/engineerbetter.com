@@ -5,7 +5,7 @@ author: pete
 comments: true
 ---
 
-<img src="/images/blog/perpetual-motion.jpg" class="image fit" />
+<img src="/update/images/blog/perpetual-motion.jpg" class="image fit" />
 
 We've recently been working on adding functionality to [Concourse-Up](https://github.com/EngineerBetter/concourse-up), based on feedback from users in the community and our own teams who've been using it in production with customers. Being able to deploy a Concourse cluster using a single command was great, but not ideal; you still had to run it again to upgrade. What if you could just run a single command, and then _never have to think about it again_? In pursuit of this goal, we added a self-update feature.
 
@@ -13,7 +13,7 @@ We've recently been working on adding functionality to [Concourse-Up](https://gi
 
 ## Self-update
 
-<img src="/images/blog/self-update.png" class="image fit" />
+<img src="/update/images/blog/self-update.png" class="image fit" />
 
 When Concourse-up deploys Concourse, it now adds a pipeline to the new Concourse called `concourse-up-self-update`. This pipeline continuously monitors our Github repo for new releases and updates Concourse in place whenever a new version of Concourse-up comes out.
 
@@ -47,7 +47,7 @@ In addition to self-update, we also added a whole bunch of other features:
 
 ## Metrics
 
-<img src="/images/blog/ci-metrics.png" class="image fit" />
+<img src="/update/images/blog/ci-metrics.png" class="image fit" />
 
 Concourse-up now automatically deploys Influxdb, Riemann, and Grafana on the web node. You can access Grafana on port 3000 of your regular concourse URL using the same username and password as your Concourse admin user. We put in a default dashboard that tracks
 

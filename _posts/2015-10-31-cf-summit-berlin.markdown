@@ -5,7 +5,7 @@ categories: update
 author: deejay
 comments: true
 ---
-<img src="/images/blog/cfsummit_splash.png" class="fit image">
+<img src="/update/images/blog/cfsummit_splash.png" class="fit image">
 
 I'm talking at [Cloud Foundry Summit Berlin 2015](http://berlin2015.cfsummit.com/) - please do feel free to stop me for a chat!
 

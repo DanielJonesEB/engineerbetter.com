@@ -4,7 +4,7 @@ title:  EngineerBetter Join the Cloud Foundry Foundation
 author: dan
 comments: true
 ---
-<img src="/images/blog/cffoundation.png" class="image fit">
+<img src="/update/images/blog/cffoundation.png" class="image fit">
 
 We're very pleased to announce that EngineerBetter Ltd is now a <strong>silver member</strong> of the <a href="https://www.cloudfoundry.org/membership/members/">Cloud Foundry Foundation</a>.
 

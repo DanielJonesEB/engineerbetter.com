@@ -5,7 +5,7 @@ author: pete
 comments: true
 ---
 
-<img src="/images/blog/continuous-delivery-ice-cream-factory.jpg" class="image fit">
+<img src="/update/images/blog/continuous-delivery-ice-cream-factory.jpg" class="image fit">
 
 EngineerBetter recently helped a large financial organisation **fully automate** their Pivotal Cloud Foundry deployments, taking a manual process that took a whole team more than a week, and replacing it with an **hands-off** continuous depoyment pipeline that **took mere hours**, often **overnight whilst the team slept**. We didn't just automate the deployment of their PCF: we **automated** the creation of their **cloud infrastructure**; deployment of **upgrades**; installation of **security updates**; and all with **full testing**.
 

@@ -5,7 +5,7 @@ categories: update
 author: deejay
 comments: true
 ---
-<img src="/images/blog/hyattregencypool.jpg" class="fit image">
+<img src="/update/images/blog/hyattregencypool.jpg" class="fit image">
 
 I'm back from the excellent [Cloud Foundry Summit 2015](http://cfsummit.com), and have been back in the country long enough to catch up on some sleep. That picture up there is the poolside area where I may have sipped a few pints of Californian IPA between presentations.
 
@@ -21,7 +21,7 @@ I'd like to stick this one in early. It was great to see diversity in the commun
 
 A running theme of conversations I had with BOSH users was acknowledging the poor usability and accessibility of BOSH as a tool. Practically every mention of BOSH I witnessed in talks was prepended with "*it might not be easy to get started with, but it's really worth getting up to speed with.*" It's certainly a sentiment I agree with, and it's encouraging to see that this is an issue the community recognises.
 
-<img class="image right" src="/images/fulls/bosh-clam.png" />A smoking gun of the poor user experience BOSH provides is probably the proliferation of 'usability band-aids' available, almost exclusively developed by DrNic. What do we have now? [BOSH Lite](https://github.com/cloudfoundry/bosh-lite) (not to be confused with [Light BOSH](http://boshartifacts.cloudfoundry.org/file_collections?type=stemcells)), [BOSH Micro](https://github.com/cloudfoundry/bosh/tree/master/bosh_cli_plugin_micro), [Nise BOSH](https://github.com/nttlabs/nise_bosh), [BOSH Init](https://github.com/cloudfoundry/bosh-init), [BOSH Gen](https://github.com/cloudfoundry-community/bosh-gen), [BOSH Workspace](https://github.com/cloudfoundry-incubator/bosh-workspace)... Any I missed? These are clearly the sign of an active community, but also a symptom of an underlying problem.
+<img class="image right" src="/update/images/fulls/bosh-clam.png" />A smoking gun of the poor user experience BOSH provides is probably the proliferation of 'usability band-aids' available, almost exclusively developed by DrNic. What do we have now? [BOSH Lite](https://github.com/cloudfoundry/bosh-lite) (not to be confused with [Light BOSH](http://boshartifacts.cloudfoundry.org/file_collections?type=stemcells)), [BOSH Micro](https://github.com/cloudfoundry/bosh/tree/master/bosh_cli_plugin_micro), [Nise BOSH](https://github.com/nttlabs/nise_bosh), [BOSH Init](https://github.com/cloudfoundry/bosh-init), [BOSH Gen](https://github.com/cloudfoundry-community/bosh-gen), [BOSH Workspace](https://github.com/cloudfoundry-incubator/bosh-workspace)... Any I missed? These are clearly the sign of an active community, but also a symptom of an underlying problem.
 
 One wonders how BOSH uptake might increase if the tool had a better UX, better and non-overlapping terminology, and a sexy website like that of [Lattice](http://lattice.io) or [Terraform](http://terraform.io).
 

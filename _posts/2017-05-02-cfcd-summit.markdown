@@ -5,7 +5,7 @@ author: deejay
 comments: true
 ---
 
-<img src="/images/blog/cfcd-summit.png" class="image fit">
+<img src="/update/images/blog/cfcd-summit.png" class="image fit">
 
 EngineerBetter are teaming up with [Resilient Scale](https://rscale.io/) to deliver the **full three-day** Cloud Foundry Certified Developer training course in the **days before the Cloud Foundry Silicon Valley Summit 2017**.
 

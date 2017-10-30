@@ -5,7 +5,7 @@ author: dan
 permalink: /bosh-concourse.html
 comments: true
 ---
-<img src="/images/blog/concourse-example.png" class="image fit">
+<img src="/update/images/blog/concourse-example.png" class="image fit">
 
 The Cloud Foundry ecosystem has given rise to some amazing things. This series of posts is about two of them - BOSH and Concourse. Together with CF, they form an awesome triangle of tools that will change the way you think about how to get things done when delivering software.
 
@@ -79,7 +79,7 @@ $ terraform graph | dot -Tpng > graph.png
 
 Which produces this:
 
-<img src="/images/blog/terraform-graph.png" class="image fit">
+<img src="/update/images/blog/terraform-graph.png" class="image fit">
 
 You should check the terraform output values and make a note of the elastic IP we'll use for the BOSH director using `terraform output`
 
@@ -117,7 +117,7 @@ While you're drinking your tea, why not read [more about BOSH](https://bosh.io/d
 
 Back in your terminal, you should eventually see something like this:
 
-<img src="/images/blog/bosh-init-deploy.png" class="image fit">
+<img src="/update/images/blog/bosh-init-deploy.png" class="image fit">
 
 ### Logging in and setting up cloud-config
 

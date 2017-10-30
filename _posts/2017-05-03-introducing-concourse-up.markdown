@@ -6,7 +6,7 @@ comments: true
 ---
 
 <figure>
-    <img src="/images/blog/bessie_coleman.jpg" class="image fit" />
+    <img src="/update/images/blog/bessie_coleman.jpg" class="image fit" />
     <figcaption style="font-size: 8pt">
     <a href="https://en.wikipedia.org/wiki/Bessie_Coleman">Bessie Coleman, c.1922</a></figcaption>
 </figure>

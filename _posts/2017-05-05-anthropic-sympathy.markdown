@@ -32,19 +32,19 @@ Right, that's the provocative bold statements out of the way. Let's start this p
 Many enterprises' technology activities are structured into silos - functional teams, each with a particular speciality. These teams typically don't sit together, and often communicate via the dreaded _service ticket_ system.
 
 <figure>
-  <img src="/images/blog/as/as.004.jpeg" class="fit image">
+  <img src="/update/images/blog/as/as.004.jpeg" class="fit image">
   <figcaption style="font-size: .8em">Silo'd functional teams on the critical path to business value</figcaption>
 </figure>
 
 Very often members of one team don't feel like the people in other teams really care about their frustrations and problems. Why is this? They're all part of the same company, so they should be working together... Right?
 
-<img src="/images/blog/as/as.005.jpeg" class="fit image">
+<img src="/update/images/blog/as/as.005.jpeg" class="fit image">
 
 It turns out there might be an explanation for one silo's apathy to the problems of another. [David Eagleman et al conducted an experiment](https://www.amazon.co.uk/Brain-Story-You-David-Eagleman/dp/1782116613/) whereby a control group of subjects were placed into a Functional Magnetic Resonance Imaging (fMRI) scanner, which infers levels of activity in areas of the brain over time.
 
 Subjects in the fMRI scanner were shown videos of a person's hand either being touched with a cotton-wool bud or painfully stabbed with a hypodermic needle. The subjects' levels of activity in neural networks associated with pain and empathy were measured.
 
-<img src="/images/blog/as/as.007.jpeg" class="fit image">
+<img src="/update/images/blog/as/as.007.jpeg" class="fit image">
 
 The experiment was repeated; this time subjects had to identify their religious beliefs before entering the scanner. Additionally, this time the videos were also labelled with the religious identity of the person being dabbed or stabbed.
 
@@ -59,7 +59,7 @@ Cast your mind back to our enterprise operating in silos. **Organisations dividi
 Thankfully we can do something about this. Instead of working in functional teams, we can instead work in cross-functional product teams that have all the skills we need to deliver value. This is much easier to achieve if you have a Platform-as-a-Service to reduce the breadth and depth of skills needed to push apps into production.
 
 <figure>
-  <img src="/images/blog/as/as.017.jpeg" class="fit image">
+  <img src="/update/images/blog/as/as.017.jpeg" class="fit image">
   <figcaption style="font-size: .8em">Skills required to deploy apps on a PaaS are highlighted in blue</figcaption>
 </figure>
 
@@ -78,7 +78,7 @@ Anyone who has worked in a virtual team, especially one which communicates by em
 In all three cases, **social capital correlated positively with productivity**. In two out of three consultancies, the human capital - the **education and experience of staff - did _not_ correlate with productivity** at all.
 
 <figure>
-  <img src="/images/blog/as/as.028.jpeg" class="fit image">
+  <img src="/update/images/blog/as/as.028.jpeg" class="fit image">
   <figcaption style="font-size: .8em">A network's value is determined by the number of nodes and connections</figcaption>
 </figure>
 
@@ -93,7 +93,7 @@ Now consider our network to be a communications network. We can make a communica
 It turns out that humans appear to possess some pretty sophisticated mechanisms for adding redundancy to communications, and for ensuring that messages are understood as the originator intended.
 
 <figure>
-  <img src="/images/blog/as/as.029.jpeg" class="fit image">
+  <img src="/update/images/blog/as/as.029.jpeg" class="fit image">
   <figcaption style="font-size: .8em">Did your eyebrows raise when looking at this picture?</figcaption>
 </figure>
 
@@ -101,7 +101,7 @@ Picture the scene: you're walking through a busy train station, and ahead of you
 
 This sort of facial mimicry may be down to mirror neurons, which are brain cells which exhibit the behaviour of firing both when an action is performed, and when it is perceived. They were first discovered by accident when researchers were exploring the brain activity of monkeys picking up peanuts. Electrodes were inserted into these monkeys' brains, detecting the impulses of supposed motor neurons when the monkeys moved. The equipment was left rigged up, and when a monkey observed a researcher picking up a peanut, the very same neurons fired.
 
-<img src="/images/blog/as/as.030.jpeg" class="fit image">
+<img src="/update/images/blog/as/as.030.jpeg" class="fit image">
 
 Mirror neurons are not proven to exist in humans as there have been very few individuals volunteering for the invasive brain surgery required. Hence in human neuroscience the term 'mirror system' is used, which gives rise to something called the 'mirror hypothesis'.
 
@@ -109,7 +109,7 @@ The mirror hypothesis suggests that when we see someone else's facial expression
 
 For example: when you see another person smiling, your mirror system fires making you smile too. The state of your body is fed back to your brain, immersing you in the same context as the person you're looking at. So you don't just know the semantic fact that 'smiling people are often happy', your brain puts itself in the same context so as to experience first-hand what the other person is experiencing. The mirror hypothesis is contested, but is supported by some compelling experimental evidence.
 
-<img src="/images/blog/as/as.031.jpeg" class="fit image">
+<img src="/update/images/blog/as/as.031.jpeg" class="fit image">
 
 [A finding](http://spp.sagepub.com/content/early/2011/04/21/1948550611406138.abstract) that supports the mirror hypothesis is that people who have had botox injections are less able to correctly identify the emotions expressed in photographs of others. But why?
 
@@ -129,7 +129,7 @@ When working in silos, communications were <em>slow</em>. There was a high laten
 
 When faced with a high transaction cost it makes sense to have fewer transactions and larger batches. This combined with the specialisation of each silo means that organisations tended to work on large batches of <em>aspects</em> of features, rather than individual features themselves. "_It took me a month to get the database team's time, so now we've got a slot we'll get them to do the stored procedures for all of this quarter's features._"
 
-<img src="/images/blog/as/as.038.jpeg" class="fit image">
+<img src="/update/images/blog/as/as.038.jpeg" class="fit image">
 
 Each batch gets bigger, each bar on the Gantt chart gets longer, and activities at the end of the project become more distant. Typically in these situations something like load testing fails right at the end of the project.
 
@@ -143,7 +143,7 @@ It's why people buy furniture on 'buy now, pay later' deals - the further away t
 
 [An interesting finding](http://www.jneurosci.org/content/30/16/5498.full.pdf) shows that the present bias may be explained by some remarkably clear neural activity.
 
-<img src="/images/blog/as/as.040.jpeg" class="fit image">
+<img src="/update/images/blog/as/as.040.jpeg" class="fit image">
 
 Rhesus monkeys were given a choice between a little bit of sugar-water immediately, or a larger amount in a few seconds' time. By varying the size of the larger amount and the delay with which it would be delivered scientists were able to record the behavioural prefences of the monkeys. For example, how much bigger would a drop of sugar water need to be for it to be worth waiting 5 seconds for?
 
@@ -166,7 +166,7 @@ Let's think back to our Gantt chart. It's a wonder that load testing ever succee
 Self-service access to resources on demand changes the economics of our team. Our **transaction costs have shrunk by several orders of magnitude** (getting hold of a database takes **seconds instead of weeks**), which makes it **economical to work on individual features** rather than aspects.
 
 <figure>
-  <img src="/images/blog/as/as.047.jpeg" class="fit image">
+  <img src="/update/images/blog/as/as.047.jpeg" class="fit image">
   <figcaption style="font-size: .8em">Use of a platform causes most of the tasks to disappear altogether</figcaption>
 </figure>
 
@@ -189,7 +189,7 @@ A [representative study](http://www2.warwick.ac.uk/fac/soc/economics/staff/amani
 Respondents were categorised by their income into two groups: rich and poor. Half of each group was asked a slightly different version of the question: either they had to cover a $300 (three hundred dollar) repair bill, or a $3,000 (three _thousand_ dollar) repair bill.
 
 <figure>
-  <img src="/images/blog/as/as.054.jpeg" class="fit image">
+  <img src="/update/images/blog/as/as.054.jpeg" class="fit image">
   <figcaption style="font-size: .8em">An example of Raven's Progressive Matrices, in which the objective is to identify the next pattern</figcaption>
 </figure>
 
@@ -229,7 +229,7 @@ Continuous delivery of complete features allows us to _demonstrate_ progress, ra
 
 The lack of trust intrinsic to Scrum can be addressed by two very simple and powerful ideas.
 
-<img src="/images/blog/as/as.063.jpeg" class="fit image">
+<img src="/update/images/blog/as/as.063.jpeg" class="fit image">
 
 **Each product team should work from a single, ordered, public backlog**, which is prioritised by the product owner. 'The business' decide the priority, and the engineering team never over-rule this (although they might discuss the assigned priorities).
 
@@ -253,7 +253,7 @@ Continuously delivering the most important thing in the simplest way allows us t
 
 When working with a platform that enables continuous delivery we can **replace the stick of deadlines** with the **carrot of intrinsic motivation**.
 
-<img src="/images/blog/as/as.065.jpeg" class="fit image">
+<img src="/update/images/blog/as/as.065.jpeg" class="fit image">
 
 An oft-reported study performed in jails found that prison inmates were more likely to be granted parole if their hearing was held just after lunch. Inmates whose hearing was held at the end of the day stood a 20% chance of being granted parole, whilst those who had their hearing after the board had returned from a lunch break stood a 65% chance of success.
 
@@ -262,13 +262,13 @@ For a long time people supposed that this discrepancy was down to the parole boa
 It turns out that there may be more to it than this.
 
 <figure>
-  <img src="/images/blog/as/as.066.jpeg" class="fit image">
+  <img src="/update/images/blog/as/as.066.jpeg" class="fit image">
   <figcaption style="font-size: .8em">An illustration of a test that provokes <a href="https://en.wikipedia.org/wiki/Stroop_effect">the Stroop effect</a></figcaption>
 </figure>
 
 A [more-recent study](http://pss.sagepub.com/content/early/2012/10/19/0956797612450034.extract) asked subjects to perform an exhaustive Stroop test, wherein a person observes the names of colours printed in a different colour, and has to name the written word rather than the colour it's printed in. This exercises self-control, as the subject has to inhibit more immediate responses.
 
-<img src="/images/blog/as/as.067.jpeg" class="fit image">
+<img src="/update/images/blog/as/as.067.jpeg" class="fit image">
 
 After performing the Stroop test to failure point, the subjects were then asked to gargle a sweet drink, and spit it out. Immediately afterwards they were then presented with another willpower test, this time squeezing a grip-exerciser for as long and as hard as possible.
 
@@ -290,7 +290,7 @@ Continuous delivery allows engineers to get reward of completing a task on a dai
 
 When Daniel Young and I founded EngineerBetter we spent time working out what we wanted to achieve and why.
 
-<img src="/images/blog/as/as.077.jpeg" class="fit image">
+<img src="/update/images/blog/as/as.077.jpeg" class="fit image">
 
 We observed that businesses are fundamentally made of only two things: the hard-earned money of shareholders, and the easily-spent time of employees. Whenever an organisation does something inefficient, it's wasting one of these two resources.
 
@@ -298,7 +298,7 @@ Sam Ramji, then-CEO of the Cloud Foundry Foundation, once pointed out to me that
 
 We all know though that time is money. And if time is money, then **money is measured in heartbeats too**.
 
-<img src="/images/blog/as/as.081.jpeg" class="fit image">
+<img src="/update/images/blog/as/as.081.jpeg" class="fit image">
 
 Someone had to exchange heartbeats for money. They gave up some of their time on this Earth to earn money, which they saved for their families, which was invested in a pension fund, or handed down to their children.
 
@@ -316,4 +316,4 @@ I for one can't contribute to this, and nor can I idly sit by the sidelines pret
 
 Damned right it's a people problem. Damned right cultural change is hard. It's time to get started.
 
-<img src="/images/blog/as/as.082.jpeg" class="fit image">
+<img src="/update/images/blog/as/as.082.jpeg" class="fit image">

@@ -6,7 +6,7 @@ permalink: /bosh-concourse2.html
 comments: true
 ---
 
-<img src="/images/blog/phoenix-sky-harbor.jpg" class="image fit">
+<img src="/update/images/blog/phoenix-sky-harbor.jpg" class="image fit">
 
 In [Part 1](/bosh-concourse.html) of this tutorial we set up a new BOSH director from scratch on AWS. Now it's time to deploy Concourse!
 
@@ -67,13 +67,13 @@ $ bosh deploy
 
 Watch while BOSH compiles packages, creates the VMs and runs the jobs defined in the manifest. Keep an eye on EC2 to see instances being used for the deployment. My BOSH Director already has the packages in its blobstore, so I see the following output.
 
-<img src="/images/blog/bosh-deploy-concourse.png" class="image fit">
+<img src="/update/images/blog/bosh-deploy-concourse.png" class="image fit">
 
 Congratulations, you should now be able to see your new CI server at https://your-concourse-url.
 
 If you can't see anything yet check your AWS ELB - it's probably that your new instance is not yet `InService`, due to the polling interval.
 
-<img src="/images/blog/no-pipelines-configured.png" class="image fit">
+<img src="/update/images/blog/no-pipelines-configured.png" class="image fit">
 
 ### Install `fly` cli and log in
 

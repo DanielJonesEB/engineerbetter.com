@@ -4,7 +4,7 @@ title:  Hiring
 author: deejay
 comments: true
 ---
-<img src="/images/blog/wantsyou.jpg" class="image fit">
+<img src="/update/images/blog/wantsyou.jpg" class="image fit">
 
 We're looking for people to **join the EngineerBetter team**.
 

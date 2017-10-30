@@ -7,7 +7,7 @@ comments: true
 redirect_from:
   - /bad
 ---
-<img src="/images/blog/brain.jpg" class="image fit">
+<img src="/update/images/blog/brain.jpg" class="image fit">
 
 I'm giving a talk entitled [Brain-Aligned Delivery](http://sparkthechange.co.uk/sessions/brain-aligned-delivery/) at [Spark The Change](http://sparkthechange.co.uk/). The presentation is an aggregration of various cognitive psychology and neuroscience findings that apply to working practices, and this post serves as accompanying notes, with links to its many **references**.
 

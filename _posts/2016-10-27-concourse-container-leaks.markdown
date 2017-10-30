@@ -5,7 +5,7 @@ author: deejay
 comments: true
 ---
 {::options parse_block_html="true" /}
-<img src="/images/blog/containers.jpg" class="image fit">
+<img src="/update/images/blog/containers.jpg" class="image fit">
 
 A customer of ours recently had trouble with their Concourse instance which resulted in us raising a [GitHub issue](https://github.com/concourse/baggageclaim/issues/6) describing how containers may get orphaned and that users may experience the error message `insufficient subnets remaining in the pool`.
 

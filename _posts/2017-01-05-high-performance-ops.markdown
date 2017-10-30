@@ -5,7 +5,7 @@ author: dan
 comments: true
 ---
 
-<img src="/images/blog/lego-cf-team.jpg" class="image fit">
+<img src="/update/images/blog/lego-cf-team.jpg" class="image fit">
 
 Last month I spoke at the excellent [London Continuous Delivery](https://www.meetup.com/London-Continuous-Delivery/) meetup about how EngineerBetter have recently been helping one of our financial services customers [continuously deploy Cloud Foundry](/2016/12/14/continuously-deploying-pivotal-cloudfoundry.html).
 

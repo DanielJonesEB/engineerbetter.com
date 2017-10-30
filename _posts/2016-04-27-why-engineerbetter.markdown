@@ -5,7 +5,7 @@ author: dan
 permalink: /why-eb.html
 comments: true
 ---
-<img src="/images/blog/shibuya.jpg" class="image fit">
+<img src="/update/images/blog/shibuya.jpg" class="image fit">
 
 **Why** does EngineerBetter exist?
 

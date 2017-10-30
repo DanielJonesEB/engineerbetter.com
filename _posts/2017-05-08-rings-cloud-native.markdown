@@ -4,7 +4,7 @@ title:  The Concentric Rings of the Cloud-Native Enterprise
 author: dan
 comments: true
 ---
-<img src="/images/blog/eb-concentric-rings.jpg" class="image fit">
+<img src="/update/images/blog/eb-concentric-rings.jpg" class="image fit">
 
 At EngineerBetter we generally categorise cloud-native transformation challenges into four problem spaces:
 
@@ -47,7 +47,7 @@ The "frozen middle" phenomenon shows us that there is big difference between the
 
 The following table shows just how profound this reconfiguration of executive leadership needs to be. When finding themselves in complex situations, characterised by extreme uncertainty, business leaders need to find a common language with those at the edge of the organisation. They need to stop asking the questions on the left and start asking the questions on the right.
 
-<img src="/images/blog/enterprise-agility-boardroom.png" class="image fit">
+<img src="/update/images/blog/enterprise-agility-boardroom.png" class="image fit">
 
 As the table above shows, a change of language can be a transformative step. It can be hugely liberating for everyone involved, when an organisation is able to shift its internal dialogue away from obsession over cost and timescales, towards an understanding of [value and urgency](https://vimeo.com/101506552).
 
