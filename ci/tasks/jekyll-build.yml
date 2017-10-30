@@ -13,5 +13,8 @@ outputs:
   - name: jekyll-built
   - name: generated-blog
 
+caches:
+  - path: gem-cache
+
 run:
   path: engineerbetter.com/ci/scripts/jekyll-build.sh
