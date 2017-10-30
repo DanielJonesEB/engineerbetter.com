@@ -77,7 +77,7 @@ The present bias has a neurological basis in the firing rate of neurons that sig
   <a class="button special" href="http://www.jneurosci.org/content/30/16/5498.full.pdf">Separating Value from Choice: Delay Discounting Activity in the Lateral Intraparietal Area</a>
 </section>
 
-I refer to a model explained by Paul Glimcher that humans are more willing to accept an expensive thing becoming more expensive, than abandon plans and switch to a equally-valuable but cheaper alternative. It is my view that this maps entirely to the difference between waterfall project planning, and just-in-time decision-making that is characteristic of agile practices.
+I refer to Paul Glimcher's model that predicts that humans are more willing to accept an expensive thing becoming more expensive, than abandon plans and switch to a equally-valuable but cheaper alternative. It is my view that this maps entirely to the difference between waterfall project planning, and just-in-time decision-making that is characteristic of agile practices.
 
 The reasons behind this tendency to accept the default becoming more expensive are many. Firstly, humans tend to value things in relative terms. The Endowment Effect means that we value what we have, both things and plans, more highly than things we do not have. Finally, we experience regret more strongly when we reject the status quo and turn out to be wrong.
 
@@ -92,7 +92,7 @@ The reasons behind this tendency to accept the default becoming more expensive a
 
 Reminding teams that they have deadlines by which they must have achieved a certain amount of work reduces their effective IQ and their ability to solve problems creatively, reducing the quality of the solution delivered. What is worse is that this scarcity of time also reduces their willpower, making them more likely to cut corners, and also reduces their ability to remember to do things later, decreasing the likelihood of them remembering to patch the corners that they have cut!
 
-Scrum is particularly insidious in this regard. By committing to fixed deliverables every two weeks, Scrum practicitions are incurring these negative effects constantly. It's no wonder that Scrum has a bad reputation for delivering high-quality software.
+Scrum is particularly insidious in this regard. By committing to fixed deliverables every two weeks, Scrum practitioners are incurring these negative effects constantly. It's no wonder that Scrum has a bad reputation for delivering high-quality software.
 
 <section class="wrapper style2 special boxout">
   <p>Scarcity reduces effective IQ by 13-14 points, and impedes executive control</p>
@@ -152,7 +152,7 @@ I highlight a study that correlated social connectedness more positively with pr
 
 Having discussed various business practices that create friction between work and the human brain, I go on to suggest some practices that align better with our biology.
 
-Research has shown that extrinsic motivators can be counter-productive, so instead we should focus on _instrinsic_ motivators: things that people _like_, rather than _want_. The SCARF model is a proprietary attempt to codify this, although I'm not it's biggest fan and think "Status" in particular is dangerous.
+Research has shown that extrinsic motivators can be counter-productive, so instead we should focus on _instrinsic_ motivators: things that people _like_, rather than _want_. The SCARF model is a proprietary attempt to codify this, although I'm not its biggest fan and think "Status" in particular is dangerous.
 
 I suggest bestowing _recognition_ rather than status, and in particular having recognised 'go-to' experts in your teams. Those recognised experts will feel rewarded by this, and they also get the opportunity to help others, which is another intrinsic motivator in adults. In practical terms, knowledge disseminates to new starters more easily.
 
