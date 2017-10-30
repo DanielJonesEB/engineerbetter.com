@@ -11,6 +11,7 @@ inputs:
 
 outputs:
   - name: jekyll-built
+  - name: generated-blog
 
 run:
   path: engineerbetter.com/ci/scripts/jekyll-build.sh
