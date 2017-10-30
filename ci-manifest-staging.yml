@@ -4,7 +4,7 @@ applications:
   disk: 128M
   memory: 64M
   instances: 1
-  path: _site/
+  path: eb-blog/_site/
   buildpack: https://github.com/cloudfoundry/staticfile-buildpack
   routes:
   - route: eb-blog-staging.cfapps.io
